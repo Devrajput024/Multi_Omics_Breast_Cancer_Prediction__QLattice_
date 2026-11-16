@@ -1,0 +1,1029 @@
+scope,selection_method,feature_name,modality,folds_selected,mean_selection_score,mean_selected_encoded_count,selection_frequency,stable_in_at_least_4_of_5_folds,unique_source_features_across_folds
+Integrated four-omics,anova,cn_KIAA0319,CNV,2,20.513988476676058,50.0,0.4,False,71
+Integrated four-omics,anova,cn_ROBO2,CNV,1,20.291076974320266,50.0,0.2,False,71
+Integrated four-omics,anova,rs_ABCA8,RNA,1,18.314025675727805,50.0,0.2,False,71
+Integrated four-omics,anova,rs_ACADL,RNA,2,19.947476933982244,50.0,0.4,False,71
+Integrated four-omics,anova,rs_ACVR1C,RNA,5,26.123040656751584,50.0,1.0,True,71
+Integrated four-omics,anova,rs_ADH1A,RNA,5,30.38613777191183,50.0,1.0,True,71
+Integrated four-omics,anova,rs_ADH1B,RNA,4,22.49751488851865,50.0,0.8,True,71
+Integrated four-omics,anova,rs_ADH1C,RNA,5,28.229482489559008,50.0,1.0,True,71
+Integrated four-omics,anova,rs_ADIPOQ,RNA,2,22.502890250966075,50.0,0.4,False,71
+Integrated four-omics,anova,rs_ALDH1L1,RNA,5,25.213083091941147,50.0,1.0,True,71
+Integrated four-omics,anova,rs_ANGPTL7,RNA,3,25.256773117618916,50.0,0.6,False,71
+Integrated four-omics,anova,rs_ANO3,RNA,5,26.309368876484672,50.0,1.0,True,71
+Integrated four-omics,anova,rs_APOB,RNA,5,43.81836074452558,50.0,1.0,True,71
+Integrated four-omics,anova,rs_AQP7,RNA,5,24.47258647859975,50.0,1.0,True,71
+Integrated four-omics,anova,rs_AQP7P1,RNA,5,26.667010240429086,50.0,1.0,True,71
+Integrated four-omics,anova,rs_C14orf180,RNA,4,24.544171051829785,50.0,0.8,True,71
+Integrated four-omics,anova,rs_C6,RNA,5,24.818869265871623,50.0,1.0,True,71
+Integrated four-omics,anova,rs_CA3,RNA,1,23.43539769183063,50.0,0.2,False,71
+Integrated four-omics,anova,rs_CA4,RNA,5,26.736626056264527,50.0,1.0,True,71
+Integrated four-omics,anova,rs_CD300LG,RNA,5,21.30429015218092,50.0,1.0,True,71
+Integrated four-omics,anova,rs_CD36,RNA,5,29.48375998570478,50.0,1.0,True,71
+Integrated four-omics,anova,rs_CIDEA,RNA,1,23.962066903924164,50.0,0.2,False,71
+Integrated four-omics,anova,rs_CIDEC,RNA,5,23.769000836468127,50.0,1.0,True,71
+Integrated four-omics,anova,rs_CLDN8,RNA,1,20.678492315734843,50.0,0.2,False,71
+Integrated four-omics,anova,rs_COL10A1,RNA,5,25.13184299101614,50.0,1.0,True,71
+Integrated four-omics,anova,rs_CST1,RNA,2,21.280911082683822,50.0,0.4,False,71
+Integrated four-omics,anova,rs_DEFB132,RNA,5,27.959112807175785,50.0,1.0,True,71
+Integrated four-omics,anova,rs_EDN3,RNA,1,20.328029026348236,50.0,0.2,False,71
+Integrated four-omics,anova,rs_FABP4,RNA,4,22.05693533073506,50.0,0.8,True,71
+Integrated four-omics,anova,rs_FIGF,RNA,5,29.938747328660973,50.0,1.0,True,71
+Integrated four-omics,anova,rs_FOSB,RNA,5,26.082431987868784,50.0,1.0,True,71
+Integrated four-omics,anova,rs_FXYD1,RNA,2,20.840122938664358,50.0,0.4,False,71
+Integrated four-omics,anova,rs_GLYAT,RNA,5,29.983121737062874,50.0,1.0,True,71
+Integrated four-omics,anova,rs_GPD1,RNA,4,22.054341037591804,50.0,0.8,True,71
+Integrated four-omics,anova,rs_GRIA4,RNA,1,25.725106553931614,50.0,0.2,False,71
+Integrated four-omics,anova,rs_HBA1,RNA,1,24.468927967374434,50.0,0.2,False,71
+Integrated four-omics,anova,rs_HBB,RNA,2,24.01977307589525,50.0,0.4,False,71
+Integrated four-omics,anova,rs_HEPACAM,RNA,5,23.353614911895818,50.0,1.0,True,71
+Integrated four-omics,anova,rs_HEPN1,RNA,5,23.716124050519337,50.0,1.0,True,71
+Integrated four-omics,anova,rs_HIF3A,RNA,3,22.5319999981639,50.0,0.6,False,71
+Integrated four-omics,anova,rs_IBSP,RNA,4,22.907505100252443,50.0,0.8,True,71
+Integrated four-omics,anova,rs_KCNIP2,RNA,5,26.630140527381172,50.0,1.0,True,71
+Integrated four-omics,anova,rs_KCNJ16,RNA,4,22.767646046248665,50.0,0.8,True,71
+Integrated four-omics,anova,rs_KIAA0408,RNA,4,26.542614256135657,50.0,0.8,True,71
+Integrated four-omics,anova,rs_LEP,RNA,5,23.639994299630025,50.0,1.0,True,71
+Integrated four-omics,anova,rs_LOC283392,RNA,5,31.360420585416694,50.0,1.0,True,71
+Integrated four-omics,anova,rs_MMP11,RNA,5,24.392678162406117,50.0,1.0,True,71
+Integrated four-omics,anova,rs_MMP13,RNA,2,23.908393371248174,50.0,0.4,False,71
+Integrated four-omics,anova,rs_MMRN1,RNA,4,22.102821819338452,50.0,0.8,True,71
+Integrated four-omics,anova,rs_MRAP,RNA,5,24.394971927763706,50.0,1.0,True,71
+Integrated four-omics,anova,rs_MYOC,RNA,2,20.08155892813246,50.0,0.4,False,71
+Integrated four-omics,anova,rs_NPY2R,RNA,5,24.07070550907949,50.0,1.0,True,71
+Integrated four-omics,anova,rs_OGN,RNA,3,22.650555012246382,50.0,0.6,False,71
+Integrated four-omics,anova,rs_OXTR,RNA,2,22.89874107157273,50.0,0.4,False,71
+Integrated four-omics,anova,rs_PCK1,RNA,5,27.614878067523044,50.0,1.0,True,71
+Integrated four-omics,anova,rs_PCOLCE2,RNA,1,24.29229512852141,50.0,0.2,False,71
+Integrated four-omics,anova,rs_PIK3C2G,RNA,3,25.75081466640209,50.0,0.6,False,71
+Integrated four-omics,anova,rs_PLIN1,RNA,5,24.556071568808928,50.0,1.0,True,71
+Integrated four-omics,anova,rs_PLIN4,RNA,4,21.84782976882259,50.0,0.8,True,71
+Integrated four-omics,anova,rs_PPAPDC1A,RNA,4,22.72201448080364,50.0,0.8,True,71
+Integrated four-omics,anova,rs_PROL1,RNA,2,19.308602362618423,50.0,0.4,False,71
+Integrated four-omics,anova,rs_RBP4,RNA,4,22.20968360228803,50.0,0.8,True,71
+Integrated four-omics,anova,rs_SCARA5,RNA,1,24.42210522163084,50.0,0.2,False,71
+Integrated four-omics,anova,rs_SLC19A3,RNA,5,22.65551489703241,50.0,1.0,True,71
+Integrated four-omics,anova,rs_SLC7A10,RNA,3,22.420032838744053,50.0,0.6,False,71
+Integrated four-omics,anova,rs_TIMP4,RNA,3,19.74281803581369,50.0,0.6,False,71
+Integrated four-omics,anova,rs_TMEM132C,RNA,1,24.85031639740124,50.0,0.2,False,71
+Integrated four-omics,anova,rs_TNMD,RNA,5,21.756703854490947,50.0,1.0,True,71
+Integrated four-omics,anova,rs_TNNT1,RNA,2,19.060644202399224,50.0,0.4,False,71
+Integrated four-omics,anova,rs_TUSC5,RNA,4,22.00552460973727,50.0,0.8,True,71
+Integrated four-omics,anova,rs_ZBTB16,RNA,1,19.19783000162596,50.0,0.2,False,71
+Integrated four-omics,l1,cn_ABCA4,CNV,3,0.1427731334815013,50.0,0.6,False,133
+Integrated four-omics,l1,cn_ANPEP,CNV,1,0.1376334023216476,50.0,0.2,False,133
+Integrated four-omics,l1,cn_BAI2,CNV,2,0.6016476608186474,50.0,0.4,False,133
+Integrated four-omics,l1,cn_BIRC5,CNV,1,0.19863344202180938,50.0,0.2,False,133
+Integrated four-omics,l1,cn_COL9A1,CNV,1,0.15744856933985701,50.0,0.2,False,133
+Integrated four-omics,l1,cn_CYP4Z2P,CNV,2,0.044630738150129384,50.0,0.4,False,133
+Integrated four-omics,l1,cn_FAM19A3,CNV,1,0.38664979657001264,50.0,0.2,False,133
+Integrated four-omics,l1,cn_GSTT1,CNV,1,0.05588656578171223,50.0,0.2,False,133
+Integrated four-omics,l1,cn_IL12RB2,CNV,3,0.1486947598287698,50.0,0.6,False,133
+Integrated four-omics,l1,cn_ISG15,CNV,2,0.06600419775223915,50.0,0.4,False,133
+Integrated four-omics,l1,cn_KNDC1,CNV,1,0.04938893592450644,50.0,0.2,False,133
+Integrated four-omics,l1,cn_MFAP4,CNV,1,0.05632833930732686,50.0,0.2,False,133
+Integrated four-omics,l1,cn_PLCH2,CNV,1,0.07462176953393522,50.0,0.2,False,133
+Integrated four-omics,l1,cn_ROBO2,CNV,5,0.19903405556210824,50.0,1.0,True,133
+Integrated four-omics,l1,cn_SAMD11,CNV,3,0.07718075350351689,50.0,0.6,False,133
+Integrated four-omics,l1,cn_SLC22A3,CNV,2,0.10617729054489645,50.0,0.4,False,133
+Integrated four-omics,l1,cn_SLC30A8,CNV,1,0.12126480095948679,50.0,0.2,False,133
+Integrated four-omics,l1,cn_SLC6A17,CNV,2,0.09858812229660188,50.0,0.4,False,133
+Integrated four-omics,l1,cn_SYCE1,CNV,1,0.04696196244211462,50.0,0.2,False,133
+Integrated four-omics,l1,cn_SYNPO2L,CNV,1,0.22396219642001178,50.0,0.2,False,133
+Integrated four-omics,l1,cn_TEKT2,CNV,1,0.10904478227203733,50.0,0.2,False,133
+Integrated four-omics,l1,cn_TNFRSF18,CNV,1,0.11352279496694409,50.0,0.2,False,133
+Integrated four-omics,l1,pp_A.Raf.pS299,Protein,1,0.05656212624776469,50.0,0.2,False,133
+Integrated four-omics,l1,pp_ACC1,Protein,1,0.05346605933047065,50.0,0.2,False,133
+Integrated four-omics,l1,pp_AMPK.pT172,Protein,1,0.07526582272834507,50.0,0.2,False,133
+Integrated four-omics,l1,pp_B.Raf.pS445,Protein,4,0.07240254823705941,50.0,0.8,True,133
+Integrated four-omics,l1,pp_Bak,Protein,1,0.10925160641276915,50.0,0.2,False,133
+Integrated four-omics,l1,pp_Bcl.xL,Protein,1,0.06957985013977169,50.0,0.2,False,133
+Integrated four-omics,l1,pp_ETS.1,Protein,1,0.09449901121697464,50.0,0.2,False,133
+Integrated four-omics,l1,pp_FOXO3a,Protein,3,0.0502515978293421,50.0,0.6,False,133
+Integrated four-omics,l1,pp_FOXO3a.pS318.S321,Protein,1,0.05250433535504908,50.0,0.2,False,133
+Integrated four-omics,l1,pp_INPP4B,Protein,1,0.05327132641462082,50.0,0.2,False,133
+Integrated four-omics,l1,pp_Jak2,Protein,4,0.0932322248106971,50.0,0.8,True,133
+Integrated four-omics,l1,pp_Lck,Protein,1,0.03869940536169629,50.0,0.2,False,133
+Integrated four-omics,l1,pp_PI3K.p85,Protein,3,0.08843323641498574,50.0,0.6,False,133
+Integrated four-omics,l1,pp_PKC.delta.pS664,Protein,2,0.07698169155538845,50.0,0.4,False,133
+Integrated four-omics,l1,pp_PR,Protein,2,0.07522527681562996,50.0,0.4,False,133
+Integrated four-omics,l1,pp_PRDX1,Protein,1,0.06481035278358048,50.0,0.2,False,133
+Integrated four-omics,l1,pp_PREX1,Protein,4,0.0929084550048336,50.0,0.8,True,133
+Integrated four-omics,l1,pp_PTEN,Protein,1,0.05590253410358058,50.0,0.2,False,133
+Integrated four-omics,l1,pp_S6.pS235.S236,Protein,2,0.10477020412132351,50.0,0.4,False,133
+Integrated four-omics,l1,pp_STAT3.pY705,Protein,1,0.042109015548608686,50.0,0.2,False,133
+Integrated four-omics,l1,pp_TAZ,Protein,3,0.12935883187018993,50.0,0.6,False,133
+Integrated four-omics,l1,pp_TFRC,Protein,3,0.10930393929652726,50.0,0.6,False,133
+Integrated four-omics,l1,pp_X14.3.3.epsilon,Protein,1,0.08818751756228223,50.0,0.2,False,133
+Integrated four-omics,l1,pp_X4E.BP1.pT37.T46,Protein,1,0.09346530912371757,50.0,0.2,False,133
+Integrated four-omics,l1,pp_c.Myc,Protein,1,0.08389735228583288,50.0,0.2,False,133
+Integrated four-omics,l1,pp_eEF2K,Protein,3,0.06634771831472391,50.0,0.6,False,133
+Integrated four-omics,l1,pp_eIF4G,Protein,1,0.036761702930791076,50.0,0.2,False,133
+Integrated four-omics,l1,pp_mTOR.pS2448,Protein,1,0.13873399760321845,50.0,0.2,False,133
+Integrated four-omics,l1,pp_p27.pT157,Protein,1,0.0748294982707522,50.0,0.2,False,133
+Integrated four-omics,l1,pp_p62.LCK.ligand,Protein,1,0.09948747904846936,50.0,0.2,False,133
+Integrated four-omics,l1,pp_p90RSK,Protein,3,0.13266520160662193,50.0,0.6,False,133
+Integrated four-omics,l1,rs_ACTL8,RNA,5,0.09425532615577918,50.0,1.0,True,133
+Integrated four-omics,l1,rs_ADAMTS19,RNA,2,0.06833200547636073,50.0,0.4,False,133
+Integrated four-omics,l1,rs_ALOX15,RNA,4,0.16366795531757214,50.0,0.8,True,133
+Integrated four-omics,l1,rs_ANO3,RNA,5,0.1973955976190556,50.0,1.0,True,133
+Integrated four-omics,l1,rs_APOB,RNA,4,0.18932679316405093,50.0,0.8,True,133
+Integrated four-omics,l1,rs_BCAS1,RNA,2,0.09205190387190368,50.0,0.4,False,133
+Integrated four-omics,l1,rs_BMPR1B,RNA,1,0.11290295030101585,50.0,0.2,False,133
+Integrated four-omics,l1,rs_C1orf95,RNA,2,0.07597851560696353,50.0,0.4,False,133
+Integrated four-omics,l1,rs_C6,RNA,5,0.21926723297631884,50.0,1.0,True,133
+Integrated four-omics,l1,rs_CARTPT,RNA,1,0.08840511029417215,50.0,0.2,False,133
+Integrated four-omics,l1,rs_CD19,RNA,2,0.0816439706560858,50.0,0.4,False,133
+Integrated four-omics,l1,rs_CHST8,RNA,2,0.04345034414323952,50.0,0.4,False,133
+Integrated four-omics,l1,rs_CLDN8,RNA,3,0.1321785140653408,50.0,0.6,False,133
+Integrated four-omics,l1,rs_CST1,RNA,2,0.05746130082307706,50.0,0.4,False,133
+Integrated four-omics,l1,rs_CXADRP3,RNA,1,0.10291257757955005,50.0,0.2,False,133
+Integrated four-omics,l1,rs_CXCL14,RNA,2,0.08888176815817637,50.0,0.4,False,133
+Integrated four-omics,l1,rs_CYP4B1,RNA,2,0.14917434276351527,50.0,0.4,False,133
+Integrated four-omics,l1,rs_CYP4F22,RNA,5,0.1955486176501064,50.0,1.0,True,133
+Integrated four-omics,l1,rs_CYP4F8,RNA,1,0.14745917516081056,50.0,0.2,False,133
+Integrated four-omics,l1,rs_DEFB132,RNA,1,0.06883505629538977,50.0,0.2,False,133
+Integrated four-omics,l1,rs_DIO1,RNA,2,0.10300059281942614,50.0,0.4,False,133
+Integrated four-omics,l1,rs_ELOVL2,RNA,1,0.0660643782113114,50.0,0.2,False,133
+Integrated four-omics,l1,rs_EMX1,RNA,3,0.20023681056484388,50.0,0.6,False,133
+Integrated four-omics,l1,rs_EREG,RNA,2,0.10795997697603077,50.0,0.4,False,133
+Integrated four-omics,l1,rs_FABP7,RNA,1,0.05975879692721557,50.0,0.2,False,133
+Integrated four-omics,l1,rs_FAM5B,RNA,1,0.15525394988054375,50.0,0.2,False,133
+Integrated four-omics,l1,rs_FAM5C,RNA,1,0.04029035715278435,50.0,0.2,False,133
+Integrated four-omics,l1,rs_FOSB,RNA,2,0.05628864457998557,50.0,0.4,False,133
+Integrated four-omics,l1,rs_GJB1,RNA,1,0.0396448347697803,50.0,0.2,False,133
+Integrated four-omics,l1,rs_GLDC,RNA,1,0.13797778986634704,50.0,0.2,False,133
+Integrated four-omics,l1,rs_GPR98,RNA,2,0.13328658948357175,50.0,0.4,False,133
+Integrated four-omics,l1,rs_GRIA2,RNA,1,0.0965658175340934,50.0,0.2,False,133
+Integrated four-omics,l1,rs_GRIK3,RNA,1,0.07902371483008329,50.0,0.2,False,133
+Integrated four-omics,l1,rs_GSTM1,RNA,1,0.14227931978832448,50.0,0.2,False,133
+Integrated four-omics,l1,rs_GSTT1,RNA,1,0.039802701774259173,50.0,0.2,False,133
+Integrated four-omics,l1,rs_HBA1,RNA,1,0.10270528929519317,50.0,0.2,False,133
+Integrated four-omics,l1,rs_HOTAIR,RNA,1,0.036427145738140744,50.0,0.2,False,133
+Integrated four-omics,l1,rs_HPX,RNA,1,0.0375838630719176,50.0,0.2,False,133
+Integrated four-omics,l1,rs_IBSP,RNA,1,0.05672223696828772,50.0,0.2,False,133
+Integrated four-omics,l1,rs_KRT13,RNA,1,0.09061981091679379,50.0,0.2,False,133
+Integrated four-omics,l1,rs_MKX,RNA,1,0.04544130605456154,50.0,0.2,False,133
+Integrated four-omics,l1,rs_MMP10,RNA,2,0.12776805071690173,50.0,0.4,False,133
+Integrated four-omics,l1,rs_MMP12,RNA,5,0.0818603251088091,50.0,1.0,True,133
+Integrated four-omics,l1,rs_MUC5B,RNA,1,0.0850651473195693,50.0,0.2,False,133
+Integrated four-omics,l1,rs_MUC6,RNA,1,0.10851137902281642,50.0,0.2,False,133
+Integrated four-omics,l1,rs_MYEOV,RNA,3,0.11050616413629359,50.0,0.6,False,133
+Integrated four-omics,l1,rs_NCRNA00052,RNA,1,0.06181739528026927,50.0,0.2,False,133
+Integrated four-omics,l1,rs_NEURL,RNA,1,0.14225842727002214,50.0,0.2,False,133
+Integrated four-omics,l1,rs_NLRP2,RNA,1,0.0947128311070343,50.0,0.2,False,133
+Integrated four-omics,l1,rs_NMU,RNA,5,0.1598765406586273,50.0,1.0,True,133
+Integrated four-omics,l1,rs_NPY5R,RNA,1,0.07104392400935165,50.0,0.2,False,133
+Integrated four-omics,l1,rs_NTS,RNA,2,0.062452296908771444,50.0,0.4,False,133
+Integrated four-omics,l1,rs_ORM2,RNA,1,0.07242526314026694,50.0,0.2,False,133
+Integrated four-omics,l1,rs_PAX7,RNA,3,0.13117496363630518,50.0,0.6,False,133
+Integrated four-omics,l1,rs_PCDHA12,RNA,1,0.08944917898170279,50.0,0.2,False,133
+Integrated four-omics,l1,rs_PIK3C2G,RNA,5,0.11071100553057293,50.0,1.0,True,133
+Integrated four-omics,l1,rs_PLA2G2D,RNA,2,0.10635522822231153,50.0,0.4,False,133
+Integrated four-omics,l1,rs_PON3,RNA,3,0.055933175966707493,50.0,0.6,False,133
+Integrated four-omics,l1,rs_PRSS21,RNA,5,0.11113190164101813,50.0,1.0,True,133
+Integrated four-omics,l1,rs_PSCA,RNA,3,0.19939683859849947,50.0,0.6,False,133
+Integrated four-omics,l1,rs_RBM24,RNA,1,0.07862378138000518,50.0,0.2,False,133
+Integrated four-omics,l1,rs_RHCG,RNA,1,0.1413182148617748,50.0,0.2,False,133
+Integrated four-omics,l1,rs_SBSN,RNA,1,0.07833004621691247,50.0,0.2,False,133
+Integrated four-omics,l1,rs_SCNN1G,RNA,2,0.0584568843598757,50.0,0.4,False,133
+Integrated four-omics,l1,rs_SCUBE2,RNA,4,0.15686293701235987,50.0,0.8,True,133
+Integrated four-omics,l1,rs_SHISA9,RNA,1,0.20148542053608118,50.0,0.2,False,133
+Integrated four-omics,l1,rs_SOX2,RNA,2,0.13357071599962334,50.0,0.4,False,133
+Integrated four-omics,l1,rs_SPINK8,RNA,1,0.14894851688381922,50.0,0.2,False,133
+Integrated four-omics,l1,rs_SYNPO2L,RNA,2,0.07712154227441899,50.0,0.4,False,133
+Integrated four-omics,l1,rs_TBC1D3G,RNA,2,0.09404224894987429,50.0,0.4,False,133
+Integrated four-omics,l1,rs_TFPI2,RNA,1,0.15948241451963205,50.0,0.2,False,133
+Integrated four-omics,l1,rs_TMPRSS4,RNA,3,0.08253445815202666,50.0,0.6,False,133
+Integrated four-omics,l1,rs_TNNI3,RNA,1,0.14992303178515398,50.0,0.2,False,133
+Integrated four-omics,l1,rs_TNNT1,RNA,3,0.1294995847450552,50.0,0.6,False,133
+Integrated four-omics,l1,rs_TOX3,RNA,1,0.14399101161535102,50.0,0.2,False,133
+Integrated four-omics,l1,rs_TPSD1,RNA,2,0.07825189914842923,50.0,0.4,False,133
+Integrated four-omics,l1,rs_TRPV6,RNA,1,0.034522994975002226,50.0,0.2,False,133
+Integrated four-omics,l1,rs_VSIG2,RNA,1,0.15336848278499227,50.0,0.2,False,133
+Integrated four-omics,l1,rs_ZIC2,RNA,1,0.07249105662390383,50.0,0.2,False,133
+Integrated four-omics,l1,rs_ZNF385B,RNA,2,0.08499619895582407,50.0,0.4,False,133
+Integrated four-omics,mutual_information,cn_ACSM5,CNV,1,0.04388451512833291,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_ADAM33,CNV,1,0.05083743080872427,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_ADAM6,CNV,1,0.0655094088241881,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_ADAMTS15,CNV,1,0.04439176644492204,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_ADCYAP1,CNV,1,0.049207856265298666,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_B4GALNT2,CNV,1,0.05093493737776367,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_BAI2,CNV,1,0.049472489803960684,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_BCAS1,CNV,1,0.046924460538148915,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_BMP7,CNV,1,0.04519300429661777,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_C11orf92,CNV,1,0.04936660618466249,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_C16orf89,CNV,1,0.04854652340312793,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_CA4,CNV,1,0.046077908857691696,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_CASQ2,CNV,1,0.04562816786568802,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_CBLN1,CNV,1,0.04860020709318391,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_CCNO,CNV,1,0.05169274992800199,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_CD3E,CNV,1,0.044540729117687805,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_CELF5,CNV,1,0.05204508756616577,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_CES3,CNV,2,0.05047531365569502,50.0,0.4,False,187
+Integrated four-omics,mutual_information,cn_CHL1,CNV,1,0.05555737148606665,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_CHODL,CNV,1,0.05032555284398055,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_CLCA2,CNV,1,0.049316807490068726,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_CLEC4E,CNV,1,0.05242801666685448,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_CLUL1,CNV,1,0.04568133985854406,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_COL14A1,CNV,2,0.06552417732917237,50.0,0.4,False,187
+Integrated four-omics,mutual_information,cn_COL9A3,CNV,1,0.04445554305616306,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_CRYAB,CNV,1,0.053008388251978955,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_DIO3,CNV,1,0.045648256724407865,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_DIRAS3,CNV,1,0.052839159659299195,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_EFCAB1,CNV,1,0.06311711191518499,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_ERAP2,CNV,1,0.04455048473300538,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_F2RL2,CNV,1,0.04145630574332726,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_FAM196A,CNV,1,0.04432888346251129,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_FAT2,CNV,1,0.043256388175263005,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_FOLR1,CNV,1,0.04355988392837995,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_FOXA3,CNV,1,0.04676521466964978,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_FUT3,CNV,1,0.042782691933122674,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_FXYD1,CNV,1,0.05369800212236853,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_GJB6,CNV,1,0.044518140286677,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_HBA2,CNV,1,0.04352348211041224,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_HSPB6,CNV,1,0.042898495517469826,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_IKZF3,CNV,1,0.04996099163195433,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_IRX6,CNV,1,0.05647226260950422,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_KCND3,CNV,2,0.04996404542636079,50.0,0.4,False,187
+Integrated four-omics,mutual_information,cn_KCNN4,CNV,1,0.04931071675102916,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_KCTD14,CNV,1,0.045002070720636,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_KIAA1045,CNV,1,0.045405387319991775,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_KLK13,CNV,1,0.05653170205556002,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_KREMEN2,CNV,1,0.045032209990097494,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_KRT23,CNV,1,0.05384484937777678,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_KRT31,CNV,1,0.04192809797282493,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_LGALS2,CNV,1,0.04628385907691435,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_LPL,CNV,1,0.05633425493421251,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_LRRC4C,CNV,1,0.04298463274242881,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_MATN2,CNV,1,0.051761024059674865,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_MELK,CNV,1,0.04466972620837928,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_MYB,CNV,1,0.043549910342129294,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_MYO18B,CNV,2,0.05227163305329674,50.0,0.4,False,187
+Integrated four-omics,mutual_information,cn_NBPF6,CNV,1,0.050067696295499564,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_NOL4,CNV,1,0.04897885290667059,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_PCDH20,CNV,1,0.04449649189975413,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_PLA2G3,CNV,1,0.050088535022094094,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_PLCH2,CNV,1,0.048030518770798336,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_PPP1R1B,CNV,2,0.04715979876067433,50.0,0.4,False,187
+Integrated four-omics,mutual_information,cn_RASGRF1,CNV,1,0.04717585355910492,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_RHBDL3,CNV,1,0.05040621894097863,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_RP1,CNV,1,0.042397802986722244,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_SBSN,CNV,1,0.04417053701572149,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_SCNN1A,CNV,1,0.051561113945934656,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_SERPINA3,CNV,1,0.04460143857947241,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_SERPINB5,CNV,1,0.0656201594458996,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_SIGLEC15,CNV,1,0.055482343020973435,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_SIM1,CNV,1,0.05042046952705315,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_SLC6A2,CNV,1,0.043855757966770215,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_SLC7A2,CNV,1,0.04400897565689532,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_SLURP1,CNV,1,0.05601462737454832,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_SMC1B,CNV,2,0.04630550206129069,50.0,0.4,False,187
+Integrated four-omics,mutual_information,cn_SSTR1,CNV,1,0.057240451899074785,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_ST8SIA6,CNV,1,0.04746238820005044,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_SYCE1L,CNV,1,0.042806570473571615,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_TEKT2,CNV,1,0.04517810396353861,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_TNFRSF18,CNV,1,0.051539288820566576,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_WDR86,CNV,1,0.04513588788339873,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_ZFR2,CNV,1,0.05727379063440563,50.0,0.2,False,187
+Integrated four-omics,mutual_information,cn_ZIC2,CNV,1,0.04656325992754051,50.0,0.2,False,187
+Integrated four-omics,mutual_information,mu_AKD1,Mutation,1,0.04459827952128492,50.0,0.2,False,187
+Integrated four-omics,mutual_information,mu_DMD,Mutation,1,0.05107164447135326,50.0,0.2,False,187
+Integrated four-omics,mutual_information,mu_DNAH5,Mutation,1,0.04456595301454258,50.0,0.2,False,187
+Integrated four-omics,mutual_information,mu_GRIN2A,Mutation,1,0.04894104332109683,50.0,0.2,False,187
+Integrated four-omics,mutual_information,mu_HUWE1,Mutation,1,0.04461651457176319,50.0,0.2,False,187
+Integrated four-omics,mutual_information,mu_MLL3,Mutation,1,0.04503944847515884,50.0,0.2,False,187
+Integrated four-omics,mutual_information,mu_MUC20,Mutation,1,0.047834551314646534,50.0,0.2,False,187
+Integrated four-omics,mutual_information,mu_MYH7,Mutation,1,0.043497310800817424,50.0,0.2,False,187
+Integrated four-omics,mutual_information,mu_PREX2,Mutation,1,0.06000536916966759,50.0,0.2,False,187
+Integrated four-omics,mutual_information,mu_SACS,Mutation,1,0.05472312955810166,50.0,0.2,False,187
+Integrated four-omics,mutual_information,pp_Akt.pT308,Protein,1,0.04950852845734466,50.0,0.2,False,187
+Integrated four-omics,mutual_information,pp_Claudin.7,Protein,1,0.04803649568241597,50.0,0.2,False,187
+Integrated four-omics,mutual_information,pp_ERCC5,Protein,1,0.062329554257304354,50.0,0.2,False,187
+Integrated four-omics,mutual_information,pp_FoxM1,Protein,1,0.04213328357330859,50.0,0.2,False,187
+Integrated four-omics,mutual_information,pp_Rb,Protein,1,0.04376645899184206,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_ABCA8,RNA,2,0.046371928317475164,50.0,0.4,False,187
+Integrated four-omics,mutual_information,rs_ACADL,RNA,3,0.06010011685916905,50.0,0.6,False,187
+Integrated four-omics,mutual_information,rs_ADAMDEC1,RNA,1,0.04413277518351766,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_ADH1C,RNA,1,0.042417509594058656,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_ADIPOQ,RNA,1,0.04936585941941063,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_AKR1C2,RNA,2,0.04932830519277709,50.0,0.4,False,187
+Integrated four-omics,mutual_information,rs_ALDH1L1,RNA,3,0.048709890105888144,50.0,0.6,False,187
+Integrated four-omics,mutual_information,rs_ANKRD30A,RNA,1,0.05011599245178955,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_ANO3,RNA,2,0.05525820193937159,50.0,0.4,False,187
+Integrated four-omics,mutual_information,rs_APOB,RNA,4,0.06057401228424236,50.0,0.8,True,187
+Integrated four-omics,mutual_information,rs_AQP7,RNA,1,0.04819834941307177,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_AQP7P1,RNA,1,0.04736796297651802,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_ATP1A2,RNA,2,0.046782681749585886,50.0,0.4,False,187
+Integrated four-omics,mutual_information,rs_C14orf180,RNA,3,0.06802076301914857,50.0,0.6,False,187
+Integrated four-omics,mutual_information,rs_C2orf40,RNA,3,0.05059955703315463,50.0,0.6,False,187
+Integrated four-omics,mutual_information,rs_C6,RNA,1,0.051045549495733145,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_CA3,RNA,1,0.04659719015490604,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_CHRDL1,RNA,5,0.061786045382119736,50.0,1.0,True,187
+Integrated four-omics,mutual_information,rs_CIDEC,RNA,3,0.048633394812270136,50.0,0.6,False,187
+Integrated four-omics,mutual_information,rs_COL17A1,RNA,1,0.04597369803757001,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_CST4,RNA,2,0.05201196974599298,50.0,0.4,False,187
+Integrated four-omics,mutual_information,rs_CXCR2P1,RNA,2,0.043889869512363844,50.0,0.4,False,187
+Integrated four-omics,mutual_information,rs_CYP4F22,RNA,1,0.047493245936172324,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_DARC,RNA,1,0.049440672444614586,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_DEFB132,RNA,1,0.05039107930936315,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_EDN3,RNA,2,0.049934406080689886,50.0,0.4,False,187
+Integrated four-omics,mutual_information,rs_FABP4,RNA,1,0.048610226602737505,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_FIGF,RNA,4,0.05890682252484658,50.0,0.8,True,187
+Integrated four-omics,mutual_information,rs_FLJ45983,RNA,1,0.04668472768254239,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_FMO2,RNA,1,0.04875411896538839,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_FOSB,RNA,1,0.04894357179537945,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_FOXA1,RNA,1,0.05093580820046517,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_FXYD1,RNA,1,0.04674757841979105,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_GLYAT,RNA,1,0.06036073113140761,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_GPM6A,RNA,1,0.04346344350071907,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_GPX2,RNA,1,0.04547937406310054,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_GRB14,RNA,1,0.044751507544637414,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_HBA1,RNA,2,0.04687509777285337,50.0,0.4,False,187
+Integrated four-omics,mutual_information,rs_HEPACAM,RNA,4,0.05186771184727684,50.0,0.8,True,187
+Integrated four-omics,mutual_information,rs_HEPN1,RNA,1,0.07927384523260916,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_HGD,RNA,1,0.05354673965324985,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_HIF3A,RNA,2,0.044683959358609915,50.0,0.4,False,187
+Integrated four-omics,mutual_information,rs_HMGCS2,RNA,1,0.046728561801300694,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_IBSP,RNA,1,0.07697247224877479,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_IGSF1,RNA,1,0.04409143268492888,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_IL20,RNA,1,0.05204652532425058,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_KCNIP2,RNA,1,0.0437127315179866,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_KCNJ16,RNA,1,0.04634251418397706,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_KIAA0408,RNA,2,0.06540798414532722,50.0,0.4,False,187
+Integrated four-omics,mutual_information,rs_KLK11,RNA,1,0.04339372398397412,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_KRT6C,RNA,1,0.04640075522675491,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_LEP,RNA,5,0.05616945110141702,50.0,1.0,True,187
+Integrated four-omics,mutual_information,rs_LGALS12,RNA,1,0.05081284657826757,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_LOC100124692,RNA,1,0.045750152025531454,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_LOC283392,RNA,3,0.053618555413321646,50.0,0.6,False,187
+Integrated four-omics,mutual_information,rs_MMRN1,RNA,5,0.05228397398976185,50.0,1.0,True,187
+Integrated four-omics,mutual_information,rs_MYH11,RNA,3,0.05318413527555806,50.0,0.6,False,187
+Integrated four-omics,mutual_information,rs_MYOC,RNA,1,0.04356209379705178,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_NKAIN1,RNA,1,0.04786121132826149,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_NTS,RNA,1,0.04560089706399184,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_OXTR,RNA,4,0.057812548417434106,50.0,0.8,True,187
+Integrated four-omics,mutual_information,rs_PCOLCE2,RNA,3,0.052264977418840765,50.0,0.6,False,187
+Integrated four-omics,mutual_information,rs_PGR,RNA,2,0.051586287078356774,50.0,0.4,False,187
+Integrated four-omics,mutual_information,rs_PI16,RNA,2,0.05284768134160245,50.0,0.4,False,187
+Integrated four-omics,mutual_information,rs_PKP1,RNA,1,0.04318114655715988,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_PLA2G2D,RNA,1,0.05228151670633041,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_PLIN1,RNA,3,0.047521023148496454,50.0,0.6,False,187
+Integrated four-omics,mutual_information,rs_PP14571,RNA,1,0.04561478022973997,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_PPP1R1A,RNA,1,0.05254128452238116,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_PROL1,RNA,1,0.04920330265188966,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_PYDC1,RNA,1,0.0470903568633525,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_RBP4,RNA,1,0.04541928005331264,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_RELN,RNA,1,0.04786985920638931,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_SAA1,RNA,1,0.04500679341793434,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_SBSN,RNA,2,0.04764132757588668,50.0,0.4,False,187
+Integrated four-omics,mutual_information,rs_SCGB2A1,RNA,1,0.05949121427537274,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_SCRG1,RNA,1,0.04990335109164201,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_SLC19A3,RNA,2,0.0476292540024732,50.0,0.4,False,187
+Integrated four-omics,mutual_information,rs_SLC27A6,RNA,1,0.04479915709284121,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_SLC30A8,RNA,1,0.04203410926526585,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_SLC7A10,RNA,2,0.05021372259781398,50.0,0.4,False,187
+Integrated four-omics,mutual_information,rs_SOX10,RNA,1,0.06000417211695086,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_SPDEF,RNA,1,0.045878803278880165,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_TAT,RNA,1,0.04897395843567898,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_TMEM132C,RNA,1,0.052015493073911845,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_TRPA1,RNA,1,0.04982552639517923,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_TUSC5,RNA,1,0.04900184780397465,50.0,0.2,False,187
+Integrated four-omics,mutual_information,rs_UGT8,RNA,1,0.048033476314889745,50.0,0.2,False,187
+Integrated four-omics,tree_importance,cn_ABCA4,CNV,1,0.002055034773832836,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_ABCA6,CNV,1,0.0018609028408761276,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_ADAM32,CNV,1,0.001639875999579949,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_ALDH3A1,CNV,1,0.0017841074901008514,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_AQPEP,CNV,1,0.0016498090184190255,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_ATP1A3,CNV,1,0.001861873380731859,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_BAI2,CNV,2,0.0031745241026460698,50.0,0.4,False,179
+Integrated four-omics,tree_importance,cn_BIRC5,CNV,1,0.0030682418960910054,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_BRDT,CNV,2,0.0023694701806382837,50.0,0.4,False,179
+Integrated four-omics,tree_importance,cn_C19orf33,CNV,1,0.0029364490249513663,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_C21orf88,CNV,1,0.001963657697799539,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_CCR7,CNV,1,0.002315808433201001,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_CD79A,CNV,1,0.00228849157197212,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_CELF5,CNV,1,0.0018526518874808183,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_CHST8,CNV,1,0.00327780625127524,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_CITED4,CNV,1,0.001716797343688784,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_CKMT2,CNV,1,0.0018394572592803338,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_CLCA2,CNV,1,0.0030543200617678275,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_CTSW,CNV,2,0.0019786437939376448,50.0,0.4,False,179
+Integrated four-omics,tree_importance,cn_CYP2A6,CNV,2,0.0018451653502135124,50.0,0.4,False,179
+Integrated four-omics,tree_importance,cn_CYP2B7P1,CNV,1,0.0032058352142698885,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_CYP4Z1,CNV,1,0.0018316336453268827,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_CYP4Z2P,CNV,1,0.0019284646214550911,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_EGOT,CNV,1,0.0018443083314303662,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_EGR3,CNV,1,0.0021052971256670114,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_EHF,CNV,1,0.002255870628020118,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_FAM19A3,CNV,1,0.003525668550063955,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_FLT3,CNV,2,0.0018227855912970386,50.0,0.4,False,179
+Integrated four-omics,tree_importance,cn_FXYD1,CNV,1,0.0016044532906369063,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_GATA4,CNV,1,0.0018312803276605933,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_GLDC,CNV,1,0.001931787503696621,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_GSTM1,CNV,1,0.0016752589884484346,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_GSTM2,CNV,1,0.0016852218495812246,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_GSTT1,CNV,2,0.0020784969566036947,50.0,0.4,False,179
+Integrated four-omics,tree_importance,cn_HAP1,CNV,1,0.002011173463146943,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_HPN,CNV,1,0.003910330379106832,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_LPPR3,CNV,1,0.001651655302062058,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_NAT1,CNV,1,0.0017034601384949943,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_NBPF4,CNV,1,0.0018123307783542912,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_NPM2,CNV,1,0.0020933512301280666,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_PDZK1,CNV,1,0.0021989105287146607,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_PLCH2,CNV,1,0.0019051506650748624,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_PPP1R14A,CNV,2,0.0019151006336556526,50.0,0.4,False,179
+Integrated four-omics,tree_importance,cn_PPP4R4,CNV,1,0.002100611622810478,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_PRKAA2,CNV,1,0.0019667845473058964,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_RLN2,CNV,1,0.0016420658506539829,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_ROBO2,CNV,1,0.0027871571567406645,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_SAMD11,CNV,1,0.002820825717501127,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_SBSN,CNV,1,0.0018335109479201343,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_SERPINA6,CNV,1,0.002177456812878245,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_SLC13A2,CNV,1,0.003128087887153284,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_SLC1A2,CNV,1,0.0028590817122112573,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_SPAG17,CNV,1,0.0022409609767172654,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_SPDYC,CNV,2,0.0018404388932696271,50.0,0.4,False,179
+Integrated four-omics,tree_importance,cn_SYT12,CNV,1,0.001874588177851516,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_TEKT2,CNV,1,0.001748936373564424,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_TRPA1,CNV,1,0.0018577311113172276,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_TTC22,CNV,1,0.0016877819081286554,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_VTCN1,CNV,1,0.001685865487172822,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_WNK4,CNV,1,0.0016112209012176905,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_ZNF695,CNV,1,0.0021549977287130765,50.0,0.2,False,179
+Integrated four-omics,tree_importance,cn_ZNHIT2,CNV,2,0.002195476819976605,50.0,0.4,False,179
+Integrated four-omics,tree_importance,mu_MLL3,Mutation,1,0.00200888556955632,50.0,0.2,False,179
+Integrated four-omics,tree_importance,pp_PKC.pan.BetaII.pS660,Protein,1,0.001938791140687139,50.0,0.2,False,179
+Integrated four-omics,tree_importance,pp_Paxillin,Protein,1,0.0018873040356580163,50.0,0.2,False,179
+Integrated four-omics,tree_importance,pp_S6.pS235.S236,Protein,1,0.0026001885118957123,50.0,0.2,False,179
+Integrated four-omics,tree_importance,pp_TFRC,Protein,1,0.00215149995677782,50.0,0.2,False,179
+Integrated four-omics,tree_importance,pp_X4E.BP1.pT70,Protein,1,0.001827039590477388,50.0,0.2,False,179
+Integrated four-omics,tree_importance,pp_p70S6K.pT389,Protein,1,0.0018358967781319786,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_ABCA8,RNA,2,0.0020996793520392555,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_ACADL,RNA,2,0.00241812628386514,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_ACVR1C,RNA,3,0.003274029762438162,50.0,0.6,False,179
+Integrated four-omics,tree_importance,rs_ADH1A,RNA,1,0.0031058919745868127,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_ADH1B,RNA,2,0.002475279465056098,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_ADH1C,RNA,2,0.0023705837163903567,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_ADIPOQ,RNA,1,0.0017163400319247326,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_AFF3,RNA,1,0.0018479639428757313,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_AK5,RNA,1,0.0021404322883153185,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_AKR1C1,RNA,1,0.0020966092584526904,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_ALB,RNA,2,0.0025589635544422664,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_ALDH1L1,RNA,3,0.0019735134800903864,50.0,0.6,False,179
+Integrated four-omics,tree_importance,rs_ANGPTL7,RNA,4,0.0024244987344118783,50.0,0.8,True,179
+Integrated four-omics,tree_importance,rs_ANO3,RNA,3,0.003768920943110243,50.0,0.6,False,179
+Integrated four-omics,tree_importance,rs_APOB,RNA,4,0.0034795389534959774,50.0,0.8,True,179
+Integrated four-omics,tree_importance,rs_AQP7,RNA,2,0.0019053975380453718,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_AQP7P1,RNA,1,0.001641453060408912,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_ARHGAP36,RNA,1,0.0016705858306862947,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_ATP1A2,RNA,1,0.0021030508996622886,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_BMPR1B,RNA,1,0.0020399573240296614,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_C14orf180,RNA,1,0.007031015222456566,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_C1orf173,RNA,1,0.0018883929215842237,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_C2orf40,RNA,1,0.0016618407130932122,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_C6,RNA,2,0.0025428412634896534,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_CA3,RNA,1,0.0018346282687149067,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_CA4,RNA,1,0.0017424490181830335,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_CALB2,RNA,1,0.0017282781221190891,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_CD300LG,RNA,1,0.0017295376735630477,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_CD36,RNA,1,0.0021552602009579864,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_CES1,RNA,1,0.0018716072998555984,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_CHRDL1,RNA,1,0.003370494749968796,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_CHST9,RNA,2,0.0020562676957055887,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_CIDEC,RNA,3,0.002919270918440074,50.0,0.6,False,179
+Integrated four-omics,tree_importance,rs_CLDN19,RNA,1,0.0025615661009985202,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_COL10A1,RNA,1,0.0017357947017042612,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_COL11A1,RNA,1,0.0018172819967968378,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_CST1,RNA,2,0.0026517532991800754,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_CYP4B1,RNA,1,0.0016901714154851039,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_DCDC2,RNA,1,0.002806196658046286,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_EDN3,RNA,1,0.0034174757982654287,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_EMX1,RNA,1,0.002647844490057311,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_EREG,RNA,1,0.0021766044089036813,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_FABP4,RNA,1,0.002097527079360485,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_FIGF,RNA,4,0.0035311146547175624,50.0,0.8,True,179
+Integrated four-omics,tree_importance,rs_FMO2,RNA,2,0.0022438197521579494,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_FOXA1,RNA,1,0.0019693046788288805,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_GLYAT,RNA,1,0.0023543324892444603,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_GPD1,RNA,3,0.002856703297665118,50.0,0.6,False,179
+Integrated four-omics,tree_importance,rs_GPX2,RNA,1,0.002174547549066426,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_GRIA4,RNA,1,0.0024364494743503774,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_HEPACAM,RNA,2,0.0025394992572315388,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_HEPN1,RNA,5,0.002227726930102819,50.0,1.0,True,179
+Integrated four-omics,tree_importance,rs_HIF3A,RNA,3,0.002354922921079102,50.0,0.6,False,179
+Integrated four-omics,tree_importance,rs_HRASLS5,RNA,1,0.001779640034814388,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_HSD17B2,RNA,1,0.002286046892301991,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_IBSP,RNA,3,0.0025438187622656514,50.0,0.6,False,179
+Integrated four-omics,tree_importance,rs_IL20,RNA,1,0.0019099708663295576,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_IL33,RNA,1,0.0035035652296556935,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_KCNJ16,RNA,1,0.0022700179181584673,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_KIAA0408,RNA,3,0.0038195932890333043,50.0,0.6,False,179
+Integrated four-omics,tree_importance,rs_KLK8,RNA,1,0.002785923314369984,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_LEP,RNA,1,0.0034458584797274583,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_LOC100124692,RNA,1,0.002162516031343316,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_LOC283392,RNA,2,0.002814780620435327,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_MKX,RNA,1,0.0018829280240220529,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_MMP10,RNA,1,0.0027119444059641065,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_MMP11,RNA,1,0.0018504682368393906,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_MMP13,RNA,2,0.0029543924667420883,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_MMRN1,RNA,2,0.0027134088067261018,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_MRAP,RNA,1,0.0022355627897189074,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_MUCL1,RNA,1,0.002315009722126589,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_MYOC,RNA,2,0.0020579859607359604,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_NEK10,RNA,1,0.0018079805004427116,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_NEURL,RNA,2,0.0027468970860563286,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_NLRP2,RNA,1,0.0029310614392269183,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_NTRK3,RNA,1,0.0019561688182844366,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_NTS,RNA,1,0.002104710610071808,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_OGN,RNA,1,0.002855155741767721,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_OXTR,RNA,3,0.003310470822685861,50.0,0.6,False,179
+Integrated four-omics,tree_importance,rs_PCK1,RNA,3,0.003173644626949861,50.0,0.6,False,179
+Integrated four-omics,tree_importance,rs_PCOLCE2,RNA,2,0.0018786772315720769,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_PIK3C2G,RNA,2,0.0018622512757106358,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_PITX1,RNA,1,0.0017925215063466298,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_PLA2G2A,RNA,1,0.0019854754736813836,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_PLIN1,RNA,2,0.004052450418391305,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_PLIN4,RNA,1,0.003599091193846114,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_POF1B,RNA,1,0.002748724621581236,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_PPAPDC1A,RNA,3,0.002560725247410953,50.0,0.6,False,179
+Integrated four-omics,tree_importance,rs_PPP1R1A,RNA,1,0.002141936078522519,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_PTCHD1,RNA,3,0.002568829517372489,50.0,0.6,False,179
+Integrated four-omics,tree_importance,rs_RBP4,RNA,2,0.004225896663197149,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_RERGL,RNA,1,0.002072388184748663,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_SAA1,RNA,1,0.0017504719112808073,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_SCGB3A1,RNA,1,0.0019179820249403353,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_SCUBE2,RNA,2,0.0020001489479151507,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_SLC19A3,RNA,1,0.001969105169228105,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_SLC27A6,RNA,1,0.00266294586844623,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_SLC5A1,RNA,1,0.0016487611083549143,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_SLC6A14,RNA,1,0.0017229569745998675,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_SLC7A10,RNA,2,0.0021561907358223086,50.0,0.4,False,179
+Integrated four-omics,tree_importance,rs_TAT,RNA,1,0.002774873099758555,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_TFF3,RNA,1,0.0018210911525568872,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_THRSP,RNA,1,0.0016557226567680092,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_TMEM132C,RNA,1,0.00428636034993178,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_TNMD,RNA,3,0.0021549004138002223,50.0,0.6,False,179
+Integrated four-omics,tree_importance,rs_TNNT1,RNA,1,0.0016418283426899935,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_TNNT3,RNA,1,0.001708778376875387,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_TRPV6,RNA,1,0.0022535214665828185,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_TTC36,RNA,1,0.0020403032417858095,50.0,0.2,False,179
+Integrated four-omics,tree_importance,rs_TUSC5,RNA,1,0.0024917979926477153,50.0,0.2,False,179
+RNA,anova,rs_ABCA8,RNA,1,18.314025675727805,50.0,0.2,False,70
+RNA,anova,rs_ACADL,RNA,2,19.947476933982244,50.0,0.4,False,70
+RNA,anova,rs_ACVR1C,RNA,5,26.123040656751584,50.0,1.0,True,70
+RNA,anova,rs_ADH1A,RNA,5,30.38613777191183,50.0,1.0,True,70
+RNA,anova,rs_ADH1B,RNA,5,21.9765700848615,50.0,1.0,True,70
+RNA,anova,rs_ADH1C,RNA,5,28.229482489559008,50.0,1.0,True,70
+RNA,anova,rs_ADIPOQ,RNA,2,22.502890250966075,50.0,0.4,False,70
+RNA,anova,rs_ALDH1L1,RNA,5,25.213083091941147,50.0,1.0,True,70
+RNA,anova,rs_ANGPTL7,RNA,3,25.256773117618916,50.0,0.6,False,70
+RNA,anova,rs_ANO3,RNA,5,26.309368876484672,50.0,1.0,True,70
+RNA,anova,rs_APOB,RNA,5,43.81836074452558,50.0,1.0,True,70
+RNA,anova,rs_AQP7,RNA,5,24.47258647859975,50.0,1.0,True,70
+RNA,anova,rs_AQP7P1,RNA,5,26.667010240429086,50.0,1.0,True,70
+RNA,anova,rs_C14orf180,RNA,4,24.544171051829785,50.0,0.8,True,70
+RNA,anova,rs_C6,RNA,5,24.818869265871623,50.0,1.0,True,70
+RNA,anova,rs_CA3,RNA,1,23.43539769183063,50.0,0.2,False,70
+RNA,anova,rs_CA4,RNA,5,26.736626056264527,50.0,1.0,True,70
+RNA,anova,rs_CCL14,RNA,1,16.796087342655824,50.0,0.2,False,70
+RNA,anova,rs_CD300LG,RNA,5,21.30429015218092,50.0,1.0,True,70
+RNA,anova,rs_CD36,RNA,5,29.48375998570478,50.0,1.0,True,70
+RNA,anova,rs_CIDEA,RNA,1,23.962066903924164,50.0,0.2,False,70
+RNA,anova,rs_CIDEC,RNA,5,23.769000836468127,50.0,1.0,True,70
+RNA,anova,rs_CLDN8,RNA,1,20.678492315734843,50.0,0.2,False,70
+RNA,anova,rs_COL10A1,RNA,5,25.13184299101614,50.0,1.0,True,70
+RNA,anova,rs_CST1,RNA,2,21.280911082683822,50.0,0.4,False,70
+RNA,anova,rs_DEFB132,RNA,5,27.959112807175785,50.0,1.0,True,70
+RNA,anova,rs_EDN3,RNA,1,20.328029026348236,50.0,0.2,False,70
+RNA,anova,rs_FABP4,RNA,5,20.985777497127806,50.0,1.0,True,70
+RNA,anova,rs_FIGF,RNA,5,29.938747328660973,50.0,1.0,True,70
+RNA,anova,rs_FOSB,RNA,5,26.082431987868784,50.0,1.0,True,70
+RNA,anova,rs_FXYD1,RNA,2,20.840122938664358,50.0,0.4,False,70
+RNA,anova,rs_GLYAT,RNA,5,29.983121737062874,50.0,1.0,True,70
+RNA,anova,rs_GPD1,RNA,4,22.054341037591804,50.0,0.8,True,70
+RNA,anova,rs_GRIA4,RNA,1,25.725106553931614,50.0,0.2,False,70
+RNA,anova,rs_HBA1,RNA,1,24.468927967374434,50.0,0.2,False,70
+RNA,anova,rs_HBB,RNA,2,24.01977307589525,50.0,0.4,False,70
+RNA,anova,rs_HEPACAM,RNA,5,23.353614911895818,50.0,1.0,True,70
+RNA,anova,rs_HEPN1,RNA,5,23.716124050519337,50.0,1.0,True,70
+RNA,anova,rs_HIF3A,RNA,3,22.5319999981639,50.0,0.6,False,70
+RNA,anova,rs_IBSP,RNA,4,22.907505100252443,50.0,0.8,True,70
+RNA,anova,rs_KCNIP2,RNA,5,26.630140527381172,50.0,1.0,True,70
+RNA,anova,rs_KCNJ16,RNA,4,22.767646046248665,50.0,0.8,True,70
+RNA,anova,rs_KIAA0408,RNA,4,26.542614256135657,50.0,0.8,True,70
+RNA,anova,rs_LEP,RNA,5,23.639994299630025,50.0,1.0,True,70
+RNA,anova,rs_LOC283392,RNA,5,31.360420585416694,50.0,1.0,True,70
+RNA,anova,rs_MMP11,RNA,5,24.392678162406117,50.0,1.0,True,70
+RNA,anova,rs_MMP13,RNA,2,23.908393371248174,50.0,0.4,False,70
+RNA,anova,rs_MMRN1,RNA,4,22.102821819338452,50.0,0.8,True,70
+RNA,anova,rs_MRAP,RNA,5,24.394971927763706,50.0,1.0,True,70
+RNA,anova,rs_MYOC,RNA,2,20.08155892813246,50.0,0.4,False,70
+RNA,anova,rs_NPY2R,RNA,5,24.07070550907949,50.0,1.0,True,70
+RNA,anova,rs_OGN,RNA,3,22.650555012246382,50.0,0.6,False,70
+RNA,anova,rs_OXTR,RNA,2,22.89874107157273,50.0,0.4,False,70
+RNA,anova,rs_PCK1,RNA,5,27.614878067523044,50.0,1.0,True,70
+RNA,anova,rs_PCOLCE2,RNA,1,24.29229512852141,50.0,0.2,False,70
+RNA,anova,rs_PIK3C2G,RNA,3,25.75081466640209,50.0,0.6,False,70
+RNA,anova,rs_PLIN1,RNA,5,24.556071568808928,50.0,1.0,True,70
+RNA,anova,rs_PLIN4,RNA,4,21.84782976882259,50.0,0.8,True,70
+RNA,anova,rs_PPAPDC1A,RNA,4,22.72201448080364,50.0,0.8,True,70
+RNA,anova,rs_PROL1,RNA,2,19.308602362618423,50.0,0.4,False,70
+RNA,anova,rs_RBP4,RNA,4,22.20968360228803,50.0,0.8,True,70
+RNA,anova,rs_SCARA5,RNA,1,24.42210522163084,50.0,0.2,False,70
+RNA,anova,rs_SLC19A3,RNA,5,22.65551489703241,50.0,1.0,True,70
+RNA,anova,rs_SLC7A10,RNA,3,22.420032838744053,50.0,0.6,False,70
+RNA,anova,rs_TIMP4,RNA,3,19.74281803581369,50.0,0.6,False,70
+RNA,anova,rs_TMEM132C,RNA,1,24.85031639740124,50.0,0.2,False,70
+RNA,anova,rs_TNMD,RNA,5,21.756703854490947,50.0,1.0,True,70
+RNA,anova,rs_TNNT1,RNA,2,19.060644202399224,50.0,0.4,False,70
+RNA,anova,rs_TUSC5,RNA,4,22.00552460973727,50.0,0.8,True,70
+RNA,anova,rs_ZBTB16,RNA,1,19.19783000162596,50.0,0.2,False,70
+RNA,l1,rs_ACTL8,RNA,5,0.09768281624605323,50.0,1.0,True,126
+RNA,l1,rs_ADAMTS19,RNA,1,0.04158465482094345,50.0,0.2,False,126
+RNA,l1,rs_AKR1B10,RNA,1,0.029261774636528782,50.0,0.2,False,126
+RNA,l1,rs_ALOX15,RNA,4,0.184336359709519,50.0,0.8,True,126
+RNA,l1,rs_ALOX15B,RNA,1,0.013431788772759334,50.0,0.2,False,126
+RNA,l1,rs_ANO3,RNA,5,0.23879219933888218,50.0,1.0,True,126
+RNA,l1,rs_APOB,RNA,3,0.23029718411704259,50.0,0.6,False,126
+RNA,l1,rs_ASCL1,RNA,1,0.0232514084384322,50.0,0.2,False,126
+RNA,l1,rs_BCAS1,RNA,4,0.11478107878460228,50.0,0.8,True,126
+RNA,l1,rs_BMPR1B,RNA,1,0.145815317779573,50.0,0.2,False,126
+RNA,l1,rs_C10orf82,RNA,1,0.027601527751984392,50.0,0.2,False,126
+RNA,l1,rs_C16orf89,RNA,1,0.03759874254157096,50.0,0.2,False,126
+RNA,l1,rs_C1orf95,RNA,2,0.12143504186731707,50.0,0.4,False,126
+RNA,l1,rs_C6,RNA,5,0.20234795217369222,50.0,1.0,True,126
+RNA,l1,rs_CARTPT,RNA,1,0.06735736689091831,50.0,0.2,False,126
+RNA,l1,rs_CBLN2,RNA,1,0.011686505359673324,50.0,0.2,False,126
+RNA,l1,rs_CCL19,RNA,1,0.07434716261646121,50.0,0.2,False,126
+RNA,l1,rs_CD19,RNA,2,0.11887607464856648,50.0,0.4,False,126
+RNA,l1,rs_CEACAM6,RNA,1,0.012529227346983914,50.0,0.2,False,126
+RNA,l1,rs_CHAD,RNA,1,0.08634187555675522,50.0,0.2,False,126
+RNA,l1,rs_CHGB,RNA,1,0.061505253592843624,50.0,0.2,False,126
+RNA,l1,rs_CHST8,RNA,3,0.03866837221914187,50.0,0.6,False,126
+RNA,l1,rs_CLDN8,RNA,2,0.10298764327617711,50.0,0.4,False,126
+RNA,l1,rs_CLGN,RNA,1,0.03131154286182063,50.0,0.2,False,126
+RNA,l1,rs_CPB1,RNA,1,0.026010933208150098,50.0,0.2,False,126
+RNA,l1,rs_CR2,RNA,1,0.04906732294722043,50.0,0.2,False,126
+RNA,l1,rs_CST1,RNA,2,0.06723567293931183,50.0,0.4,False,126
+RNA,l1,rs_CST4,RNA,1,0.00996947080800232,50.0,0.2,False,126
+RNA,l1,rs_CXADRP3,RNA,1,0.06018115645512094,50.0,0.2,False,126
+RNA,l1,rs_CXCL14,RNA,3,0.1194301519695052,50.0,0.6,False,126
+RNA,l1,rs_CYP2A6,RNA,2,0.019167280579240525,50.0,0.4,False,126
+RNA,l1,rs_CYP4B1,RNA,2,0.1058014841353168,50.0,0.4,False,126
+RNA,l1,rs_CYP4F22,RNA,5,0.1605594723749268,50.0,1.0,True,126
+RNA,l1,rs_CYP4F8,RNA,1,0.09536143738762175,50.0,0.2,False,126
+RNA,l1,rs_DCX,RNA,1,0.023568003596843197,50.0,0.2,False,126
+RNA,l1,rs_DEFB132,RNA,2,0.10575424276584236,50.0,0.4,False,126
+RNA,l1,rs_DIO1,RNA,2,0.05470256225033634,50.0,0.4,False,126
+RNA,l1,rs_EDN3,RNA,3,0.11631010569466442,50.0,0.6,False,126
+RNA,l1,rs_ELOVL2,RNA,1,0.06399754291109386,50.0,0.2,False,126
+RNA,l1,rs_EMX1,RNA,4,0.14929421178823418,50.0,0.8,True,126
+RNA,l1,rs_EREG,RNA,2,0.09982859955302628,50.0,0.4,False,126
+RNA,l1,rs_FABP7,RNA,1,0.11482095075300607,50.0,0.2,False,126
+RNA,l1,rs_FAM3B,RNA,1,0.011102366466267399,50.0,0.2,False,126
+RNA,l1,rs_FAM5B,RNA,2,0.087880928024547,50.0,0.4,False,126
+RNA,l1,rs_FAM5C,RNA,1,0.018608818152873234,50.0,0.2,False,126
+RNA,l1,rs_FOSB,RNA,2,0.03148467600517973,50.0,0.4,False,126
+RNA,l1,rs_GLDC,RNA,1,0.15654385098638582,50.0,0.2,False,126
+RNA,l1,rs_GPR26,RNA,1,0.05542976591118506,50.0,0.2,False,126
+RNA,l1,rs_GPR98,RNA,3,0.08848975659439606,50.0,0.6,False,126
+RNA,l1,rs_GRB14,RNA,1,0.08696550696135875,50.0,0.2,False,126
+RNA,l1,rs_GRIA2,RNA,1,0.07124088887830188,50.0,0.2,False,126
+RNA,l1,rs_GRIK3,RNA,1,0.05452778003563039,50.0,0.2,False,126
+RNA,l1,rs_GSTM1,RNA,2,0.12318914510487389,50.0,0.4,False,126
+RNA,l1,rs_GSTT1,RNA,2,0.04282002571621718,50.0,0.4,False,126
+RNA,l1,rs_HBA1,RNA,1,0.14400023522519634,50.0,0.2,False,126
+RNA,l1,rs_HOTAIR,RNA,1,0.06980136726542599,50.0,0.2,False,126
+RNA,l1,rs_HOXB13,RNA,1,0.025228679960536418,50.0,0.2,False,126
+RNA,l1,rs_HOXC11,RNA,1,0.01738091436518066,50.0,0.2,False,126
+RNA,l1,rs_HPX,RNA,1,0.05148286796226352,50.0,0.2,False,126
+RNA,l1,rs_IBSP,RNA,1,0.06570812759073229,50.0,0.2,False,126
+RNA,l1,rs_KCNJ3,RNA,2,0.03743223770340034,50.0,0.4,False,126
+RNA,l1,rs_KIF1A,RNA,2,0.02846136436145398,50.0,0.4,False,126
+RNA,l1,rs_KLK11,RNA,1,0.05950815636452442,50.0,0.2,False,126
+RNA,l1,rs_KRT13,RNA,1,0.15120680872966905,50.0,0.2,False,126
+RNA,l1,rs_LOC84740,RNA,1,0.028368865488486876,50.0,0.2,False,126
+RNA,l1,rs_LRRC31,RNA,1,0.013456470452441168,50.0,0.2,False,126
+RNA,l1,rs_LTF,RNA,1,0.031710537437246535,50.0,0.2,False,126
+RNA,l1,rs_MKX,RNA,2,0.0551968014510614,50.0,0.4,False,126
+RNA,l1,rs_MMP10,RNA,3,0.1230461126512102,50.0,0.6,False,126
+RNA,l1,rs_MMP12,RNA,4,0.09781740858656694,50.0,0.8,True,126
+RNA,l1,rs_MS4A1,RNA,1,0.048804589929360265,50.0,0.2,False,126
+RNA,l1,rs_MUC5B,RNA,1,0.029283074912261692,50.0,0.2,False,126
+RNA,l1,rs_MUC6,RNA,2,0.04179797374046986,50.0,0.4,False,126
+RNA,l1,rs_MUCL1,RNA,1,0.038032788076322904,50.0,0.2,False,126
+RNA,l1,rs_MYEOV,RNA,3,0.10656589336164896,50.0,0.6,False,126
+RNA,l1,rs_NCRNA00052,RNA,1,0.13982596273819503,50.0,0.2,False,126
+RNA,l1,rs_NEURL,RNA,1,0.20942875538993744,50.0,0.2,False,126
+RNA,l1,rs_NLRP2,RNA,1,0.06306600333740726,50.0,0.2,False,126
+RNA,l1,rs_NMU,RNA,5,0.10759089062247869,50.0,1.0,True,126
+RNA,l1,rs_NPY5R,RNA,2,0.05275186377062489,50.0,0.4,False,126
+RNA,l1,rs_NTNG1,RNA,3,0.05457118273751683,50.0,0.6,False,126
+RNA,l1,rs_NTS,RNA,3,0.04229107603252185,50.0,0.6,False,126
+RNA,l1,rs_OGN,RNA,3,0.050076630074738816,50.0,0.6,False,126
+RNA,l1,rs_ONECUT2,RNA,1,0.09387457274281602,50.0,0.2,False,126
+RNA,l1,rs_ORM2,RNA,3,0.07255334760093018,50.0,0.6,False,126
+RNA,l1,rs_OSR1,RNA,1,0.05707681860177883,50.0,0.2,False,126
+RNA,l1,rs_PAX7,RNA,3,0.1049069232910577,50.0,0.6,False,126
+RNA,l1,rs_PCDHA12,RNA,1,0.1143609152655708,50.0,0.2,False,126
+RNA,l1,rs_PIK3C2G,RNA,5,0.11198833176679086,50.0,1.0,True,126
+RNA,l1,rs_PLA2G2D,RNA,3,0.15294798632997572,50.0,0.6,False,126
+RNA,l1,rs_PON3,RNA,5,0.06531886333863528,50.0,1.0,True,126
+RNA,l1,rs_PPP1R1B,RNA,1,0.03527697525473377,50.0,0.2,False,126
+RNA,l1,rs_PRAME,RNA,1,0.008685333715646497,50.0,0.2,False,126
+RNA,l1,rs_PRSS21,RNA,5,0.0992206845992868,50.0,1.0,True,126
+RNA,l1,rs_PSCA,RNA,4,0.18321148673183385,50.0,0.8,True,126
+RNA,l1,rs_RBM24,RNA,2,0.07280308620347499,50.0,0.4,False,126
+RNA,l1,rs_RHCG,RNA,1,0.2644247003728851,50.0,0.2,False,126
+RNA,l1,rs_RIMS2,RNA,1,0.008228102389931895,50.0,0.2,False,126
+RNA,l1,rs_ROBO2,RNA,1,0.014818030846018938,50.0,0.2,False,126
+RNA,l1,rs_S100A2,RNA,1,0.017263505958041808,50.0,0.2,False,126
+RNA,l1,rs_S100P,RNA,1,0.06011334006871484,50.0,0.2,False,126
+RNA,l1,rs_SBSN,RNA,4,0.06890494396649849,50.0,0.8,True,126
+RNA,l1,rs_SCNN1G,RNA,5,0.0887881841442966,50.0,1.0,True,126
+RNA,l1,rs_SCUBE2,RNA,5,0.22093674940460595,50.0,1.0,True,126
+RNA,l1,rs_SHISA9,RNA,1,0.15339942632590917,50.0,0.2,False,126
+RNA,l1,rs_SLC26A3,RNA,1,0.03405967236613215,50.0,0.2,False,126
+RNA,l1,rs_SLC9A2,RNA,2,0.07435365839996064,50.0,0.4,False,126
+RNA,l1,rs_SOX2,RNA,2,0.10142404864334767,50.0,0.4,False,126
+RNA,l1,rs_SPAG17,RNA,1,0.05083452762766268,50.0,0.2,False,126
+RNA,l1,rs_SPINK8,RNA,1,0.12638225112699014,50.0,0.2,False,126
+RNA,l1,rs_SYNPO2L,RNA,3,0.04910794019363111,50.0,0.6,False,126
+RNA,l1,rs_SYT1,RNA,1,0.060795040566907224,50.0,0.2,False,126
+RNA,l1,rs_SYTL5,RNA,1,0.011019771954432517,50.0,0.2,False,126
+RNA,l1,rs_TBC1D3G,RNA,2,0.08883119069037487,50.0,0.4,False,126
+RNA,l1,rs_TFPI2,RNA,2,0.07302822639617984,50.0,0.4,False,126
+RNA,l1,rs_TMPRSS4,RNA,3,0.04861241650898789,50.0,0.6,False,126
+RNA,l1,rs_TNNI3,RNA,2,0.09307241047159841,50.0,0.4,False,126
+RNA,l1,rs_TNNT1,RNA,3,0.15199988936238473,50.0,0.6,False,126
+RNA,l1,rs_TOX3,RNA,3,0.04943337020533509,50.0,0.6,False,126
+RNA,l1,rs_TPSD1,RNA,2,0.073258795588937,50.0,0.4,False,126
+RNA,l1,rs_TPSG1,RNA,2,0.044433781777597145,50.0,0.4,False,126
+RNA,l1,rs_TRPV6,RNA,2,0.028062026550647635,50.0,0.4,False,126
+RNA,l1,rs_VIPR2,RNA,2,0.05631615792089668,50.0,0.4,False,126
+RNA,l1,rs_VSIG2,RNA,1,0.2411425374393206,50.0,0.2,False,126
+RNA,l1,rs_ZIC2,RNA,3,0.09402240474561778,50.0,0.6,False,126
+RNA,l1,rs_ZNF385B,RNA,3,0.09384546470282056,50.0,0.6,False,126
+RNA,mutual_information,rs_ABCA8,RNA,2,0.046371928317475164,50.0,0.4,False,124
+RNA,mutual_information,rs_ACADL,RNA,4,0.054183964987322975,50.0,0.8,True,124
+RNA,mutual_information,rs_ACTG2,RNA,2,0.04100706917086694,50.0,0.4,False,124
+RNA,mutual_information,rs_ACVR1C,RNA,2,0.04085937626588432,50.0,0.4,False,124
+RNA,mutual_information,rs_ADAMDEC1,RNA,1,0.04413277518351766,50.0,0.2,False,124
+RNA,mutual_information,rs_ADIPOQ,RNA,4,0.04311192556610466,50.0,0.8,True,124
+RNA,mutual_information,rs_AGTR1,RNA,1,0.03892502555676414,50.0,0.2,False,124
+RNA,mutual_information,rs_AKR1C2,RNA,3,0.04511459677907329,50.0,0.6,False,124
+RNA,mutual_information,rs_ALDH1L1,RNA,3,0.048709890105888144,50.0,0.6,False,124
+RNA,mutual_information,rs_ANGPTL7,RNA,1,0.04526095462808244,50.0,0.2,False,124
+RNA,mutual_information,rs_ANKRD30A,RNA,1,0.04689694972404945,50.0,0.2,False,124
+RNA,mutual_information,rs_ANO3,RNA,3,0.050233984335403235,50.0,0.6,False,124
+RNA,mutual_information,rs_APOB,RNA,4,0.058221023004276506,50.0,0.8,True,124
+RNA,mutual_information,rs_APOD,RNA,2,0.03933608147481371,50.0,0.4,False,124
+RNA,mutual_information,rs_AQP7,RNA,4,0.0431641949744857,50.0,0.8,True,124
+RNA,mutual_information,rs_AQP7P1,RNA,2,0.04981478467211953,50.0,0.4,False,124
+RNA,mutual_information,rs_ATP1A2,RNA,2,0.046782681749585886,50.0,0.4,False,124
+RNA,mutual_information,rs_C10orf82,RNA,1,0.03820019542830244,50.0,0.2,False,124
+RNA,mutual_information,rs_C14orf180,RNA,5,0.05768404377067342,50.0,1.0,True,124
+RNA,mutual_information,rs_C2orf40,RNA,4,0.0503173332474216,50.0,0.8,True,124
+RNA,mutual_information,rs_C3orf57,RNA,2,0.04086383729629228,50.0,0.4,False,124
+RNA,mutual_information,rs_C6,RNA,2,0.04351151123833641,50.0,0.4,False,124
+RNA,mutual_information,rs_CA3,RNA,1,0.04659719015490604,50.0,0.2,False,124
+RNA,mutual_information,rs_CD300LG,RNA,1,0.04061323573472464,50.0,0.2,False,124
+RNA,mutual_information,rs_CEACAM6,RNA,1,0.04243440788756225,50.0,0.2,False,124
+RNA,mutual_information,rs_CES1,RNA,1,0.043152443022385745,50.0,0.2,False,124
+RNA,mutual_information,rs_CHRDL1,RNA,5,0.061786045382119736,50.0,1.0,True,124
+RNA,mutual_information,rs_CIDEC,RNA,3,0.048633394812270136,50.0,0.6,False,124
+RNA,mutual_information,rs_CNTFR,RNA,1,0.03536525825070935,50.0,0.2,False,124
+RNA,mutual_information,rs_COL17A1,RNA,1,0.04597369803757001,50.0,0.2,False,124
+RNA,mutual_information,rs_CST1,RNA,1,0.039623971132015656,50.0,0.2,False,124
+RNA,mutual_information,rs_CST4,RNA,2,0.043180288546246226,50.0,0.4,False,124
+RNA,mutual_information,rs_CXCL14,RNA,2,0.04011369410745458,50.0,0.4,False,124
+RNA,mutual_information,rs_CXCR2P1,RNA,2,0.04325775223482964,50.0,0.4,False,124
+RNA,mutual_information,rs_CYP4F22,RNA,1,0.047493245936172324,50.0,0.2,False,124
+RNA,mutual_information,rs_DACH1,RNA,1,0.036699298904237176,50.0,0.2,False,124
+RNA,mutual_information,rs_DARC,RNA,2,0.046924011760854256,50.0,0.4,False,124
+RNA,mutual_information,rs_DEFB132,RNA,1,0.05429981474328116,50.0,0.2,False,124
+RNA,mutual_information,rs_DEGS2,RNA,2,0.042942810615166915,50.0,0.4,False,124
+RNA,mutual_information,rs_DIO1,RNA,1,0.040687896951421054,50.0,0.2,False,124
+RNA,mutual_information,rs_EDN3,RNA,2,0.04154878560986852,50.0,0.4,False,124
+RNA,mutual_information,rs_FABP4,RNA,3,0.042931746995830654,50.0,0.6,False,124
+RNA,mutual_information,rs_FIGF,RNA,5,0.0540091591936533,50.0,1.0,True,124
+RNA,mutual_information,rs_FLJ45983,RNA,1,0.04668472768254239,50.0,0.2,False,124
+RNA,mutual_information,rs_FLT3,RNA,3,0.04131355876836662,50.0,0.6,False,124
+RNA,mutual_information,rs_FMO2,RNA,1,0.04875411896538839,50.0,0.2,False,124
+RNA,mutual_information,rs_FOSB,RNA,2,0.04495912718063799,50.0,0.4,False,124
+RNA,mutual_information,rs_FOXA1,RNA,3,0.04385135639367954,50.0,0.6,False,124
+RNA,mutual_information,rs_FXYD1,RNA,1,0.04411524926418586,50.0,0.2,False,124
+RNA,mutual_information,rs_GLDC,RNA,1,0.04170490363313517,50.0,0.2,False,124
+RNA,mutual_information,rs_GLRA3,RNA,2,0.04138855748951287,50.0,0.4,False,124
+RNA,mutual_information,rs_GLYAT,RNA,3,0.048754307814633156,50.0,0.6,False,124
+RNA,mutual_information,rs_GPM6A,RNA,2,0.043195476578208325,50.0,0.4,False,124
+RNA,mutual_information,rs_GPX2,RNA,2,0.04183812941529863,50.0,0.4,False,124
+RNA,mutual_information,rs_GRB14,RNA,1,0.0411915173992814,50.0,0.2,False,124
+RNA,mutual_information,rs_GRIA4,RNA,2,0.040514302874785635,50.0,0.4,False,124
+RNA,mutual_information,rs_GRIK3,RNA,1,0.03481060172006334,50.0,0.2,False,124
+RNA,mutual_information,rs_HBA1,RNA,4,0.04770415273994749,50.0,0.8,True,124
+RNA,mutual_information,rs_HBB,RNA,1,0.034987796264784654,50.0,0.2,False,124
+RNA,mutual_information,rs_HEPACAM,RNA,5,0.048182974117422894,50.0,1.0,True,124
+RNA,mutual_information,rs_HEPN1,RNA,1,0.06567668900337109,50.0,0.2,False,124
+RNA,mutual_information,rs_HGD,RNA,2,0.045818719558296195,50.0,0.4,False,124
+RNA,mutual_information,rs_HIF3A,RNA,2,0.04158145231009114,50.0,0.4,False,124
+RNA,mutual_information,rs_HMGCS2,RNA,1,0.04639534962440561,50.0,0.2,False,124
+RNA,mutual_information,rs_HORMAD1,RNA,1,0.041761614707023886,50.0,0.2,False,124
+RNA,mutual_information,rs_IBSP,RNA,2,0.0537254316059107,50.0,0.4,False,124
+RNA,mutual_information,rs_IGSF1,RNA,1,0.03898052677658903,50.0,0.2,False,124
+RNA,mutual_information,rs_IL20,RNA,1,0.0513074270241769,50.0,0.2,False,124
+RNA,mutual_information,rs_IL33,RNA,1,0.03435760297599755,50.0,0.2,False,124
+RNA,mutual_information,rs_KCNC2,RNA,1,0.045749584517843944,50.0,0.2,False,124
+RNA,mutual_information,rs_KCNF1,RNA,1,0.04192766413562965,50.0,0.2,False,124
+RNA,mutual_information,rs_KCNIP2,RNA,2,0.043481232942638615,50.0,0.4,False,124
+RNA,mutual_information,rs_KCNJ16,RNA,1,0.03805006321174975,50.0,0.2,False,124
+RNA,mutual_information,rs_KIAA0408,RNA,2,0.05432659305112297,50.0,0.4,False,124
+RNA,mutual_information,rs_KLK11,RNA,1,0.04622077746175424,50.0,0.2,False,124
+RNA,mutual_information,rs_KRT6C,RNA,1,0.04185485525785926,50.0,0.2,False,124
+RNA,mutual_information,rs_KRT81,RNA,1,0.03717922720785305,50.0,0.2,False,124
+RNA,mutual_information,rs_LEP,RNA,5,0.05594905502546519,50.0,1.0,True,124
+RNA,mutual_information,rs_LGALS12,RNA,2,0.045236237219113296,50.0,0.4,False,124
+RNA,mutual_information,rs_LOC283392,RNA,3,0.044583958977420846,50.0,0.6,False,124
+RNA,mutual_information,rs_MIA,RNA,1,0.03906701216547348,50.0,0.2,False,124
+RNA,mutual_information,rs_MMRN1,RNA,5,0.05228397398976185,50.0,1.0,True,124
+RNA,mutual_information,rs_MRAP,RNA,1,0.04001029054935201,50.0,0.2,False,124
+RNA,mutual_information,rs_MYH11,RNA,4,0.04963803259580479,50.0,0.8,True,124
+RNA,mutual_information,rs_MYOC,RNA,1,0.04319708284661572,50.0,0.2,False,124
+RNA,mutual_information,rs_NKAIN1,RNA,1,0.04786121132826149,50.0,0.2,False,124
+RNA,mutual_information,rs_OXTR,RNA,5,0.05384453342293179,50.0,1.0,True,124
+RNA,mutual_information,rs_PAX2,RNA,1,0.038113430101481605,50.0,0.2,False,124
+RNA,mutual_information,rs_PCDHA10,RNA,2,0.03803507705190878,50.0,0.4,False,124
+RNA,mutual_information,rs_PCOLCE2,RNA,3,0.052264977418840765,50.0,0.6,False,124
+RNA,mutual_information,rs_PGR,RNA,2,0.051586287078356774,50.0,0.4,False,124
+RNA,mutual_information,rs_PI16,RNA,2,0.05210858304152843,50.0,0.4,False,124
+RNA,mutual_information,rs_PKP1,RNA,2,0.04184781496553458,50.0,0.4,False,124
+RNA,mutual_information,rs_PLA2G2D,RNA,1,0.05228151670633041,50.0,0.2,False,124
+RNA,mutual_information,rs_PLCH1,RNA,1,0.04239010021620837,50.0,0.2,False,124
+RNA,mutual_information,rs_PLIN1,RNA,3,0.047521023148496454,50.0,0.6,False,124
+RNA,mutual_information,rs_PP14571,RNA,2,0.0436749668303954,50.0,0.4,False,124
+RNA,mutual_information,rs_PPAPDC1A,RNA,2,0.04215751220111963,50.0,0.4,False,124
+RNA,mutual_information,rs_PPP1R1A,RNA,2,0.04554235017634123,50.0,0.4,False,124
+RNA,mutual_information,rs_PROL1,RNA,1,0.043606357649419,50.0,0.2,False,124
+RNA,mutual_information,rs_RBP4,RNA,2,0.04308540990931875,50.0,0.4,False,124
+RNA,mutual_information,rs_RELN,RNA,2,0.04396618315551448,50.0,0.4,False,124
+RNA,mutual_information,rs_SAA1,RNA,2,0.04284788488359881,50.0,0.4,False,124
+RNA,mutual_information,rs_SCGB2A1,RNA,5,0.04414550715706929,50.0,1.0,True,124
+RNA,mutual_information,rs_SCRG1,RNA,1,0.04443850305473185,50.0,0.2,False,124
+RNA,mutual_information,rs_SCUBE2,RNA,1,0.041257953131407454,50.0,0.2,False,124
+RNA,mutual_information,rs_SLC19A3,RNA,3,0.04460554963184693,50.0,0.6,False,124
+RNA,mutual_information,rs_SLC27A6,RNA,1,0.045029294708934575,50.0,0.2,False,124
+RNA,mutual_information,rs_SLC28A3,RNA,1,0.04609738327314816,50.0,0.2,False,124
+RNA,mutual_information,rs_SLC30A8,RNA,2,0.04280462866631862,50.0,0.4,False,124
+RNA,mutual_information,rs_SLC5A8,RNA,1,0.04225217163382333,50.0,0.2,False,124
+RNA,mutual_information,rs_SLC7A10,RNA,2,0.04350706849328145,50.0,0.4,False,124
+RNA,mutual_information,rs_SOX10,RNA,2,0.04829717607512585,50.0,0.4,False,124
+RNA,mutual_information,rs_SPDEF,RNA,2,0.043215014976830335,50.0,0.4,False,124
+RNA,mutual_information,rs_TAT,RNA,2,0.044629158724261986,50.0,0.4,False,124
+RNA,mutual_information,rs_THRSP,RNA,1,0.04203134190740454,50.0,0.2,False,124
+RNA,mutual_information,rs_TMEM132C,RNA,2,0.044468751472938606,50.0,0.4,False,124
+RNA,mutual_information,rs_TNMD,RNA,3,0.042177468881768654,50.0,0.6,False,124
+RNA,mutual_information,rs_TRIM29,RNA,1,0.04271407507865188,50.0,0.2,False,124
+RNA,mutual_information,rs_TRPA1,RNA,3,0.04231063371098317,50.0,0.6,False,124
+RNA,mutual_information,rs_TUSC5,RNA,4,0.04295397476914492,50.0,0.8,True,124
+RNA,mutual_information,rs_UGT2B28,RNA,1,0.03427386793629528,50.0,0.2,False,124
+RNA,mutual_information,rs_UGT8,RNA,1,0.048033476314889745,50.0,0.2,False,124
+RNA,mutual_information,rs_ZBTB16,RNA,2,0.04051340132676351,50.0,0.4,False,124
+RNA,tree_importance,rs_ABCA12,RNA,1,0.0033713761147849386,50.0,0.2,False,138
+RNA,tree_importance,rs_ABCC11,RNA,1,0.003645685427384245,50.0,0.2,False,138
+RNA,tree_importance,rs_ACADL,RNA,1,0.0036054113328302896,50.0,0.2,False,138
+RNA,tree_importance,rs_ACTL8,RNA,1,0.0038469333802836755,50.0,0.2,False,138
+RNA,tree_importance,rs_ACVR1C,RNA,4,0.007847348952767608,50.0,0.8,True,138
+RNA,tree_importance,rs_ADAMDEC1,RNA,1,0.0031804924748393246,50.0,0.2,False,138
+RNA,tree_importance,rs_ADH1B,RNA,2,0.00416563804432414,50.0,0.4,False,138
+RNA,tree_importance,rs_ADH1C,RNA,1,0.004079706208011689,50.0,0.2,False,138
+RNA,tree_importance,rs_ADIPOQ,RNA,1,0.0037946293953488404,50.0,0.2,False,138
+RNA,tree_importance,rs_AK5,RNA,2,0.0037097655757477007,50.0,0.4,False,138
+RNA,tree_importance,rs_AKR1B10,RNA,1,0.003278185050609263,50.0,0.2,False,138
+RNA,tree_importance,rs_ALOX15,RNA,5,0.007163399120703065,50.0,1.0,True,138
+RNA,tree_importance,rs_ANO3,RNA,5,0.005926978157108817,50.0,1.0,True,138
+RNA,tree_importance,rs_APOB,RNA,2,0.0036961076458867244,50.0,0.4,False,138
+RNA,tree_importance,rs_AQP7,RNA,5,0.0054804262621136034,50.0,1.0,True,138
+RNA,tree_importance,rs_ATP13A5,RNA,1,0.004091201353898873,50.0,0.2,False,138
+RNA,tree_importance,rs_BCL11A,RNA,1,0.0033210539697851754,50.0,0.2,False,138
+RNA,tree_importance,rs_BMPR1B,RNA,1,0.0036965573146069846,50.0,0.2,False,138
+RNA,tree_importance,rs_BPIL1,RNA,1,0.0037867393456030413,50.0,0.2,False,138
+RNA,tree_importance,rs_C14orf180,RNA,2,0.003711230143228322,50.0,0.4,False,138
+RNA,tree_importance,rs_C6,RNA,4,0.004827729499978882,50.0,0.8,True,138
+RNA,tree_importance,rs_CA4,RNA,1,0.00341344057961594,50.0,0.2,False,138
+RNA,tree_importance,rs_CAPN8,RNA,2,0.0034320965123966546,50.0,0.4,False,138
+RNA,tree_importance,rs_CCNO,RNA,1,0.0032040292788399665,50.0,0.2,False,138
+RNA,tree_importance,rs_CD19,RNA,1,0.004359764924857233,50.0,0.2,False,138
+RNA,tree_importance,rs_CD36,RNA,1,0.003144605326350779,50.0,0.2,False,138
+RNA,tree_importance,rs_CHRDL1,RNA,4,0.0041651313723665125,50.0,0.8,True,138
+RNA,tree_importance,rs_CIDEA,RNA,1,0.0037553973772242338,50.0,0.2,False,138
+RNA,tree_importance,rs_CIDEC,RNA,4,0.0038426579284145976,50.0,0.8,True,138
+RNA,tree_importance,rs_CLDN19,RNA,2,0.0035444838502252975,50.0,0.4,False,138
+RNA,tree_importance,rs_CLGN,RNA,1,0.0033965217440358325,50.0,0.2,False,138
+RNA,tree_importance,rs_COL10A1,RNA,3,0.0035790083747432237,50.0,0.6,False,138
+RNA,tree_importance,rs_COL11A1,RNA,1,0.004498531832281756,50.0,0.2,False,138
+RNA,tree_importance,rs_COL4A6,RNA,2,0.0035483455939514384,50.0,0.4,False,138
+RNA,tree_importance,rs_CR2,RNA,1,0.003210071758911663,50.0,0.2,False,138
+RNA,tree_importance,rs_CST1,RNA,2,0.0033484977988634352,50.0,0.4,False,138
+RNA,tree_importance,rs_CXCL13,RNA,1,0.0032571288948760753,50.0,0.2,False,138
+RNA,tree_importance,rs_CXCL2,RNA,1,0.003841019192463734,50.0,0.2,False,138
+RNA,tree_importance,rs_CYP4B1,RNA,1,0.0036902059718976646,50.0,0.2,False,138
+RNA,tree_importance,rs_CYP4F8,RNA,2,0.003466971740786423,50.0,0.4,False,138
+RNA,tree_importance,rs_DEFB132,RNA,2,0.0037617648890630132,50.0,0.4,False,138
+RNA,tree_importance,rs_DLK1,RNA,1,0.0033419941461285602,50.0,0.2,False,138
+RNA,tree_importance,rs_DOK7,RNA,1,0.003341039334374009,50.0,0.2,False,138
+RNA,tree_importance,rs_EDN3,RNA,2,0.0038414587531512487,50.0,0.4,False,138
+RNA,tree_importance,rs_EMX1,RNA,1,0.0065702218250857,50.0,0.2,False,138
+RNA,tree_importance,rs_FAM5B,RNA,1,0.004145228078224925,50.0,0.2,False,138
+RNA,tree_importance,rs_FGFBP1,RNA,1,0.003280314945922535,50.0,0.2,False,138
+RNA,tree_importance,rs_FIBCD1,RNA,1,0.0032423632946828023,50.0,0.2,False,138
+RNA,tree_importance,rs_FIGF,RNA,5,0.005664222617206104,50.0,1.0,True,138
+RNA,tree_importance,rs_FOSB,RNA,4,0.006887496280116069,50.0,0.8,True,138
+RNA,tree_importance,rs_FOXI1,RNA,1,0.0031012803543399334,50.0,0.2,False,138
+RNA,tree_importance,rs_FXYD1,RNA,5,0.004463127992367448,50.0,1.0,True,138
+RNA,tree_importance,rs_GABBR2,RNA,1,0.0034292937307715448,50.0,0.2,False,138
+RNA,tree_importance,rs_GJB1,RNA,2,0.003737954251091573,50.0,0.4,False,138
+RNA,tree_importance,rs_GLDC,RNA,1,0.003201984354221772,50.0,0.2,False,138
+RNA,tree_importance,rs_GLYAT,RNA,5,0.006361013189259072,50.0,1.0,True,138
+RNA,tree_importance,rs_GPD1,RNA,3,0.003684555699833869,50.0,0.6,False,138
+RNA,tree_importance,rs_GPM6A,RNA,1,0.004013918141621455,50.0,0.2,False,138
+RNA,tree_importance,rs_GSTM1,RNA,1,0.0032709791681030387,50.0,0.2,False,138
+RNA,tree_importance,rs_HBB,RNA,2,0.003953887967112912,50.0,0.4,False,138
+RNA,tree_importance,rs_HEPN1,RNA,4,0.005513931565015515,50.0,0.8,True,138
+RNA,tree_importance,rs_HIF3A,RNA,1,0.003291796019647116,50.0,0.2,False,138
+RNA,tree_importance,rs_HMGCS2,RNA,1,0.0036473428884907844,50.0,0.2,False,138
+RNA,tree_importance,rs_IL33,RNA,2,0.004227402403245199,50.0,0.4,False,138
+RNA,tree_importance,rs_INSM1,RNA,1,0.00403877541281519,50.0,0.2,False,138
+RNA,tree_importance,rs_IYD,RNA,2,0.003936843803170545,50.0,0.4,False,138
+RNA,tree_importance,rs_KCNF1,RNA,1,0.0037611435427427403,50.0,0.2,False,138
+RNA,tree_importance,rs_KCNIP2,RNA,5,0.006427111615671996,50.0,1.0,True,138
+RNA,tree_importance,rs_KCNJ16,RNA,3,0.003695711809825378,50.0,0.6,False,138
+RNA,tree_importance,rs_KIAA0408,RNA,3,0.006073434684091119,50.0,0.6,False,138
+RNA,tree_importance,rs_KLK5,RNA,1,0.003587776358492398,50.0,0.2,False,138
+RNA,tree_importance,rs_KRT13,RNA,3,0.0036748845299629123,50.0,0.6,False,138
+RNA,tree_importance,rs_KRT17,RNA,1,0.003894256881876264,50.0,0.2,False,138
+RNA,tree_importance,rs_KRT4,RNA,1,0.004167071273902843,50.0,0.2,False,138
+RNA,tree_importance,rs_LEP,RNA,2,0.004067537689925088,50.0,0.4,False,138
+RNA,tree_importance,rs_LOC283392,RNA,2,0.0040860544969451885,50.0,0.4,False,138
+RNA,tree_importance,rs_LOC389033,RNA,1,0.0044380949128497195,50.0,0.2,False,138
+RNA,tree_importance,rs_MAGEA4,RNA,1,0.004468916856673125,50.0,0.2,False,138
+RNA,tree_importance,rs_MAPK4,RNA,1,0.004806266797378255,50.0,0.2,False,138
+RNA,tree_importance,rs_MMP10,RNA,3,0.005470173343548892,50.0,0.6,False,138
+RNA,tree_importance,rs_MMP11,RNA,2,0.00413957236978903,50.0,0.4,False,138
+RNA,tree_importance,rs_MMP12,RNA,1,0.0034417775886057445,50.0,0.2,False,138
+RNA,tree_importance,rs_MRAP,RNA,5,0.004833857544626279,50.0,1.0,True,138
+RNA,tree_importance,rs_MUC15,RNA,5,0.005150004497468432,50.0,1.0,True,138
+RNA,tree_importance,rs_NBPF6,RNA,1,0.003376501800051633,50.0,0.2,False,138
+RNA,tree_importance,rs_NEK10,RNA,1,0.0032503060961863394,50.0,0.2,False,138
+RNA,tree_importance,rs_NLRP2,RNA,2,0.003565991182861267,50.0,0.4,False,138
+RNA,tree_importance,rs_NMU,RNA,1,0.003512115881156507,50.0,0.2,False,138
+RNA,tree_importance,rs_NTRK3,RNA,2,0.0037571297626656226,50.0,0.4,False,138
+RNA,tree_importance,rs_OGN,RNA,1,0.004997488016318737,50.0,0.2,False,138
+RNA,tree_importance,rs_OSR1,RNA,1,0.0035190018292510787,50.0,0.2,False,138
+RNA,tree_importance,rs_OXTR,RNA,3,0.004466714799819648,50.0,0.6,False,138
+RNA,tree_importance,rs_PCK1,RNA,5,0.0040647937625461145,50.0,1.0,True,138
+RNA,tree_importance,rs_PEG10,RNA,1,0.0036766755263964606,50.0,0.2,False,138
+RNA,tree_importance,rs_PI16,RNA,1,0.003094629856781457,50.0,0.2,False,138
+RNA,tree_importance,rs_PIK3C2G,RNA,1,0.004457702120586013,50.0,0.2,False,138
+RNA,tree_importance,rs_PITX1,RNA,1,0.003683546767239244,50.0,0.2,False,138
+RNA,tree_importance,rs_PLIN1,RNA,5,0.004979506568171472,50.0,1.0,True,138
+RNA,tree_importance,rs_PLIN4,RNA,1,0.004374064758598952,50.0,0.2,False,138
+RNA,tree_importance,rs_PON3,RNA,2,0.004103666464859641,50.0,0.4,False,138
+RNA,tree_importance,rs_PP14571,RNA,1,0.003443279405805675,50.0,0.2,False,138
+RNA,tree_importance,rs_PPAPDC1A,RNA,3,0.004712085892394781,50.0,0.6,False,138
+RNA,tree_importance,rs_PRAME,RNA,1,0.004063409269888028,50.0,0.2,False,138
+RNA,tree_importance,rs_PRSS21,RNA,1,0.0031852626254339337,50.0,0.2,False,138
+RNA,tree_importance,rs_PSCA,RNA,1,0.0033162989952977995,50.0,0.2,False,138
+RNA,tree_importance,rs_PTCHD1,RNA,1,0.003487212614878279,50.0,0.2,False,138
+RNA,tree_importance,rs_RBP4,RNA,1,0.004942347999267117,50.0,0.2,False,138
+RNA,tree_importance,rs_RET,RNA,1,0.003254495190381113,50.0,0.2,False,138
+RNA,tree_importance,rs_S100A7,RNA,1,0.0036208700995532233,50.0,0.2,False,138
+RNA,tree_importance,rs_SBSN,RNA,1,0.0038088942722364627,50.0,0.2,False,138
+RNA,tree_importance,rs_SCGN,RNA,1,0.004125764116359955,50.0,0.2,False,138
+RNA,tree_importance,rs_SCUBE2,RNA,4,0.004355080870622415,50.0,0.8,True,138
+RNA,tree_importance,rs_SFRP1,RNA,2,0.0033541079124531064,50.0,0.4,False,138
+RNA,tree_importance,rs_SLC13A2,RNA,1,0.00393138670601527,50.0,0.2,False,138
+RNA,tree_importance,rs_SLC19A3,RNA,4,0.004414619373867447,50.0,0.8,True,138
+RNA,tree_importance,rs_SLC27A6,RNA,1,0.004171586549126338,50.0,0.2,False,138
+RNA,tree_importance,rs_SLC7A10,RNA,2,0.003813460635287571,50.0,0.4,False,138
+RNA,tree_importance,rs_SOX10,RNA,1,0.003384895822944588,50.0,0.2,False,138
+RNA,tree_importance,rs_SOX2,RNA,2,0.0034033457863162277,50.0,0.4,False,138
+RNA,tree_importance,rs_SPAG6,RNA,1,0.0034080340403436333,50.0,0.2,False,138
+RNA,tree_importance,rs_SPHKAP,RNA,1,0.0032868335890122997,50.0,0.2,False,138
+RNA,tree_importance,rs_SPINK8,RNA,2,0.003980298244351394,50.0,0.4,False,138
+RNA,tree_importance,rs_SYTL5,RNA,1,0.003229542857565166,50.0,0.2,False,138
+RNA,tree_importance,rs_TAT,RNA,1,0.003210130590171695,50.0,0.2,False,138
+RNA,tree_importance,rs_TFF1,RNA,1,0.004749494313292851,50.0,0.2,False,138
+RNA,tree_importance,rs_TMEM132C,RNA,3,0.0038933007124878605,50.0,0.6,False,138
+RNA,tree_importance,rs_TMPRSS4,RNA,1,0.003455305747060614,50.0,0.2,False,138
+RNA,tree_importance,rs_TNNT1,RNA,2,0.0038971375626054607,50.0,0.4,False,138
+RNA,tree_importance,rs_TOX3,RNA,1,0.005902156447874299,50.0,0.2,False,138
+RNA,tree_importance,rs_TRPV6,RNA,1,0.0034407884997270863,50.0,0.2,False,138
+RNA,tree_importance,rs_TUSC5,RNA,1,0.0035745960138008842,50.0,0.2,False,138
+RNA,tree_importance,rs_UGT2B11,RNA,1,0.003348562765529059,50.0,0.2,False,138
+RNA,tree_importance,rs_VIT,RNA,1,0.003178765894509954,50.0,0.2,False,138
+RNA,tree_importance,rs_VSIG2,RNA,1,0.0036818430734853933,50.0,0.2,False,138
+RNA,tree_importance,rs_WFDC2,RNA,1,0.003426421898891683,50.0,0.2,False,138
+RNA,tree_importance,rs_WIF1,RNA,1,0.0054866482574103675,50.0,0.2,False,138
+RNA,tree_importance,rs_ZIC2,RNA,1,0.004033710790673846,50.0,0.2,False,138
+RNA,tree_importance,rs_ZNF385B,RNA,1,0.0032045684453380994,50.0,0.2,False,138

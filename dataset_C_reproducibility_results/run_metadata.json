@@ -1,0 +1,64 @@
+{
+  "run_started": "2026-11-10T22:17:20+05:30",
+  "run_finished": "2026-11-10T22:28:06+05:30",
+  "input_file": "C:\\Users\\asus\\OneDrive\\Desktop\\Breast part 2\\dataset_c_extracted\\data.csv",
+  "input_sha256": "da120be71091411cda4185fc45f3c204c4d244a4060d8c7b35f42bbd4c3f69d5",
+  "dataset_shape_including_target": [
+    705,
+    1937
+  ],
+  "predictor_count": 1936,
+  "modality_counts": {
+    "CNV": 860,
+    "RNA": 604,
+    "Mutation": 249,
+    "Protein": 223
+  },
+  "target": "vital.status",
+  "target_mapping": {
+    "0": "Alive",
+    "1": "Deceased"
+  },
+  "target_counts": {
+    "0": 611,
+    "1": 94
+  },
+  "train_samples": 564,
+  "test_samples": 141,
+  "seed": 20261110,
+  "nested_cv": {
+    "outer_folds": 3,
+    "inner_folds": 3
+  },
+  "candidate_models": [
+    "logistic_regression",
+    "random_forest",
+    "extra_trees",
+    "rbf_svm",
+    "hist_gradient_boosting"
+  ],
+  "scope_winners": {
+    "CNV": "logistic_regression",
+    "RNA": "random_forest",
+    "Mutation": "logistic_regression",
+    "Protein": "random_forest",
+    "Integrated four-omics": "random_forest"
+  },
+  "global_training_cv_winner": {
+    "scope": "RNA",
+    "model": "random_forest",
+    "composite_rank": 1.0
+  },
+  "candidate_count": 25,
+  "model_fit_errors": 0,
+  "test_results_are_descriptive_only": true,
+  "patient_level_independence_verified": false,
+  "survival_time_prediction": false,
+  "clinically_validated": false,
+  "limitations": [
+    "Recorded vital status classification only; no survival duration or censoring.",
+    "No patient IDs/barcodes; row-level patient independence cannot be verified.",
+    "Only 94 deceased cases overall and 19 in the fixed held-out test set.",
+    "No independent external validation; exploratory and not clinically validated."
+  ]
+}

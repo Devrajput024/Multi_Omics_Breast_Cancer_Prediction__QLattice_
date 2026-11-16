@@ -1,0 +1,26 @@
+{
+  "roc_auc": {
+    "mean_difference": -0.0420484613172275,
+    "ci95_low": -0.16134598792062121,
+    "ci95_high": 0.07292924935289055,
+    "bootstrap_replicates": 3000
+  },
+  "pr_auc_average_precision": {
+    "mean_difference": -0.02803963876023726,
+    "ci95_low": -0.13595272640683628,
+    "ci95_high": 0.07671349860807326,
+    "bootstrap_replicates": 3000
+  },
+  "balanced_accuracy": {
+    "mean_difference": -0.06956140350877192,
+    "ci95_low": -0.1578947368421053,
+    "ci95_high": 0.004098360655737765,
+    "bootstrap_replicates": 3000
+  },
+  "macro_f1": {
+    "mean_difference": -0.0818428321663571,
+    "ci95_low": -0.19616930564514226,
+    "ci95_high": 0.009301433235101407,
+    "bootstrap_replicates": 3000
+  }
+}

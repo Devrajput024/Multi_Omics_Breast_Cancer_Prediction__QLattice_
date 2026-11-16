@@ -1,0 +1,40 @@
+{
+  "columns": [
+    "PR.Status",
+    "ER.Status",
+    "HER2.Final.Status",
+    "histological.type"
+  ],
+  "counts": {
+    "PR.Status": {
+      "Positive": 353,
+      "Negative": 193,
+      "<MISSING>": 122,
+      "Not Performed": 28,
+      "Performed but Not Available": 5,
+      "Indeterminate": 4
+    },
+    "ER.Status": {
+      "Positive": 414,
+      "Negative": 135,
+      "<MISSING>": 122,
+      "Not Performed": 27,
+      "Performed but Not Available": 5,
+      "Indeterminate": 2
+    },
+    "HER2.Final.Status": {
+      "Negative": 457,
+      "<MISSING>": 145,
+      "Positive": 86,
+      "Equivocal": 9,
+      "Not Available": 8
+    },
+    "histological.type": {
+      "infiltrating ductal carcinoma": 574,
+      "infiltrating lobular carcinoma": 131
+    }
+  },
+  "prediction_time_documented": false,
+  "main_model_inclusion": false,
+  "reason": "timing/provenance unavailable; potential leakage or confounding cannot be assessed"
+}

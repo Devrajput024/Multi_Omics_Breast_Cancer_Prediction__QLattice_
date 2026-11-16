@@ -1,0 +1,7 @@
+SAMPLE OVERLAP AND INTEGRATION READINESS
+
+Tabular files: 2. Rows: data.csv=705, brca_data_w_subtypes.csv=705. Columns shared: 1937. Additional columns in brca_data_w_subtypes.csv: PR.Status, ER.Status, HER2.Final.Status, histological.type.
+Exact row-wise matches across shared columns at same position: 705/705. All shared headers are in the same order: True.
+Explicit patient/sample ID columns detected by header name: 0.
+No patient/sample IDs exist in the tables, so matched/unmatched patient counts and duplicate IDs are not computable. Exact row order alignment is not equivalent to verified patient ID matching. The added labels align by row position for these two supplied tables; do not use row order to join with external cohorts.
+Feature blocks can be used together in a single aligned matrix as stored, but whether they are measurements from the same patients cannot be proven independently. No automatic merge was performed.

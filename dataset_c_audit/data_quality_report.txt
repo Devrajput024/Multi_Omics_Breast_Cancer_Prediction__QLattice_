@@ -1,0 +1,37 @@
+DATA QUALITY AND STATISTICAL EDA (Dataset C only)
+
+data.csv: 705 rows x 1937 columns; total missing cells=0/1365585 (0.000000%); duplicate rows=0; identical-value column groups=62 (extra redundant columns=99); constant columns=0; near-constant columns (>=95% modal value)=230.
+  Missing columns: none
+  Numeric columns=1937; categorical columns=0; univariate Tukey 1.5xIQR flagged cells=66631. This is a screening count, not evidence of erroneous data.
+brca_data_w_subtypes.csv: 705 rows x 1941 columns; total missing cells=389/1368405 (0.028427%); duplicate rows=0; identical-value column groups=62 (extra redundant columns=99); constant columns=0; near-constant columns (>=95% modal value)=230.
+  Missing columns: PR.Status=122, ER.Status=122, HER2.Final.Status=145
+  Numeric columns=1937; categorical columns=4; univariate Tukey 1.5xIQR flagged cells=66631. This is a screening count, not evidence of erroneous data.
+
+Largest absolute Pearson correlations with numeric coding of vital.status (descriptive screening only; not causal or validated prediction evidence):
+  rs_APOB: r=0.269978
+  rs_GLYAT: r=0.238194
+  rs_LOC283392: r=0.230158
+  rs_PCK1: r=0.224622
+  rs_KCNIP2: r=0.222472
+  rs_FIGF: r=0.221835
+  rs_ADH1A: r=0.221588
+  rs_AQP7P1: r=0.216511
+  rs_COL10A1: r=-0.216398
+  rs_PCOLCE2: r=0.214305
+  rs_MRAP: r=0.213739
+  rs_ANGPTL7: r=0.213401
+  rs_FOSB: r=0.213014
+  rs_CD36: r=0.213008
+  rs_HIF3A: r=0.211092
+
+Inter-feature correlation screen: first 10 columns in each observed prefix family (40 columns; deterministic header order); pairs with |Pearson r| >= 0.95: 8. This subset screen is not exhaustive over all 1,936 features.
+  rs_ADIPOQ <> rs_ADH1B: r=0.950875
+  cn_ISG15 <> cn_PLCH2: r=1.000000
+  cn_ISG15 <> cn_SAMD11: r=1.000000
+  cn_ISG15 <> cn_TNFRSF18: r=1.000000
+  cn_PLCH2 <> cn_SAMD11: r=1.000000
+  cn_PLCH2 <> cn_TNFRSF18: r=1.000000
+  cn_SAMD11 <> cn_TNFRSF18: r=1.000000
+  cn_DNALI1 <> cn_RSPO1: r=0.983031
+
+Sample-level QC: no exact duplicate rows in either table; data.csv has no missing cells; enriched table has missing receptor-status values but no missing feature values; no ID or sample-quality indicators were supplied. Numeric ranges and univariate outliers are summarized in dataset_structure.csv. Raw first/last row values are not reproduced; per-column SHA-256 fingerprints of first/last five entries are supplied there instead.

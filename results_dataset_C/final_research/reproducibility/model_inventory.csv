@@ -1,0 +1,47 @@
+model_path,file_name,size_bytes,location_type
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\cnv_dedup__deduplicated.joblib,cnv_dedup__deduplicated.joblib,34465,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\cnv_dedup__original.joblib,cnv_dedup__original.joblib,35593,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\cnv__extra_trees.joblib,cnv__extra_trees.joblib,456840,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\cnv__logistic_regression.joblib,cnv__logistic_regression.joblib,48109,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\cnv__random_forest.joblib,cnv__random_forest.joblib,244352,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\integrated__extra_trees.joblib,integrated__extra_trees.joblib,428172,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\integrated__logistic_regression.joblib,integrated__logistic_regression.joblib,85844,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\integrated__logistic_regression__l1_logistic.joblib,integrated__logistic_regression__l1_logistic.joblib,55694,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\integrated__logistic_regression__mutual_information.joblib,integrated__logistic_regression__mutual_information.joblib,75381,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\integrated__logistic_regression__tree_importance.joblib,integrated__logistic_regression__tree_importance.joblib,353776,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\integrated__random_forest.joblib,integrated__random_forest.joblib,214449,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\mutation__extra_trees.joblib,mutation__extra_trees.joblib,478430,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\mutation__logistic_regression.joblib,mutation__logistic_regression.joblib,20112,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\mutation__random_forest.joblib,mutation__random_forest.joblib,244490,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\protein__extra_trees.joblib,protein__extra_trees.joblib,509061,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\protein__logistic_regression.joblib,protein__logistic_regression.joblib,26534,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\protein__random_forest.joblib,protein__random_forest.joblib,203347,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\rna__extra_trees.joblib,rna__extra_trees.joblib,431700,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\rna__logistic_regression.joblib,rna__logistic_regression.joblib,43584,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\rna__logistic_regression__l1_logistic.joblib,rna__logistic_regression__l1_logistic.joblib,40747,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\rna__logistic_regression__mutual_information.joblib,rna__logistic_regression__mutual_information.joblib,43484,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\rna__logistic_regression__tree_importance.joblib,rna__logistic_regression__tree_importance.joblib,353586,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\models\rna__random_forest.joblib,rna__random_forest.joblib,190331,central model artifact
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\individual_omics\cnv\cnv_dedup__deduplicated.joblib,cnv_dedup__deduplicated.joblib,34465,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\individual_omics\cnv\cnv_dedup__original.joblib,cnv_dedup__original.joblib,35593,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\individual_omics\cnv\cnv__extra_trees.joblib,cnv__extra_trees.joblib,456840,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\individual_omics\cnv\cnv__logistic_regression.joblib,cnv__logistic_regression.joblib,48109,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\individual_omics\cnv\cnv__random_forest.joblib,cnv__random_forest.joblib,244352,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\individual_omics\mutation\mutation__extra_trees.joblib,mutation__extra_trees.joblib,478430,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\individual_omics\mutation\mutation__logistic_regression.joblib,mutation__logistic_regression.joblib,20112,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\individual_omics\mutation\mutation__random_forest.joblib,mutation__random_forest.joblib,244490,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\individual_omics\protein\protein__extra_trees.joblib,protein__extra_trees.joblib,509061,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\individual_omics\protein\protein__logistic_regression.joblib,protein__logistic_regression.joblib,26534,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\individual_omics\protein\protein__random_forest.joblib,protein__random_forest.joblib,203347,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\individual_omics\rna\rna__extra_trees.joblib,rna__extra_trees.joblib,431700,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\individual_omics\rna\rna__logistic_regression.joblib,rna__logistic_regression.joblib,43584,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\individual_omics\rna\rna__logistic_regression__l1_logistic.joblib,rna__logistic_regression__l1_logistic.joblib,40747,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\individual_omics\rna\rna__logistic_regression__mutual_information.joblib,rna__logistic_regression__mutual_information.joblib,43484,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\individual_omics\rna\rna__logistic_regression__tree_importance.joblib,rna__logistic_regression__tree_importance.joblib,353586,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\individual_omics\rna\rna__random_forest.joblib,rna__random_forest.joblib,190331,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\integrated\integrated__extra_trees.joblib,integrated__extra_trees.joblib,428172,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\integrated\integrated__logistic_regression.joblib,integrated__logistic_regression.joblib,85844,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\integrated\integrated__logistic_regression__l1_logistic.joblib,integrated__logistic_regression__l1_logistic.joblib,55694,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\integrated\integrated__logistic_regression__mutual_information.joblib,integrated__logistic_regression__mutual_information.joblib,75381,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\integrated\integrated__logistic_regression__tree_importance.joblib,integrated__logistic_regression__tree_importance.joblib,353776,scoped copy
+C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\integrated\integrated__random_forest.joblib,integrated__random_forest.joblib,214449,scoped copy

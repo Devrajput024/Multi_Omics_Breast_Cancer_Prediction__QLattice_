@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "source_shape": [
+    705,
+    1937
+  ],
+  "target_counts": {
+    "0": 611,
+    "1": 94
+  },
+  "modality_feature_counts": {
+    "cnv": 860,
+    "rna": 604,
+    "mutation": 249,
+    "protein": 223
+  },
+  "unexpected_predictors": [],
+  "train_rows": 564,
+  "test_rows": 141,
+  "saved_test_models": {
+    "cnv__logistic_regression": {
+      "rows": 141,
+      "unique_test_indices": 141,
+      "tn_fp_fn_tp": [
+        99,
+        23,
+        16,
+        3
+      ]
+    },
+    "integrated__random_forest": {
+      "rows": 141,
+      "unique_test_indices": 141,
+      "tn_fp_fn_tp": [
+        119,
+        3,
+        13,
+        6
+      ]
+    },
+    "mutation__logistic_regression": {
+      "rows": 141,
+      "unique_test_indices": 141,
+      "tn_fp_fn_tp": [
+        94,
+        28,
+        16,
+        3
+      ]
+    },
+    "protein__random_forest": {
+      "rows": 141,
+      "unique_test_indices": 141,
+      "tn_fp_fn_tp": [
+        120,
+        2,
+        18,
+        1
+      ]
+    },
+    "rna__random_forest": {
+      "rows": 141,
+      "unique_test_indices": 141,
+      "tn_fp_fn_tp": [
+        118,
+        4,
+        13,
+        6
+      ]
+    }
+  },
+  "candidate_models": 25,
+  "hist_gradient_boosting_candidates": 5,
+  "model_fit_errors": 0,
+  "final_pipeline_paths": [
+    "models/cnv__logistic_regression.joblib",
+    "models/integrated__random_forest.joblib",
+    "models/mutation__logistic_regression.joblib",
+    "models/protein__random_forest.joblib",
+    "models/rna__random_forest.joblib"
+  ],
+  "figure_png_count": 12,
+  "figure_pdf_count": 12,
+  "final_research_report_exists": true
+}

@@ -1,0 +1,8 @@
+{
+  "CNV": "most-frequent imputation, OneHotEncoder(handle_unknown=ignore)",
+  "RNA": "median imputation + StandardScaler",
+  "mutation": "median imputation + VarianceThreshold fitted per fold; no resampling",
+  "protein": "median imputation + StandardScaler",
+  "all": "ColumnTransformer inside Pipeline; fit only on corresponding training fold",
+  "target_excluded": true
+}

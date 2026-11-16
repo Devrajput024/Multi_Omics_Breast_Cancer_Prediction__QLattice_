@@ -1,0 +1,12 @@
+RESEARCH READINESS AND METHOD SUITABILITY
+
+Dataset size is 705 rows with 1,937 numeric columns in data.csv (including target), or 1,936 numeric non-target candidate features. This is p > n and has only 94 rows with target code 1. Any predictive estimate is vulnerable to high variance, overfit, and imbalance; independent external validation is essential.
+
+Classical ML: possible only as exploratory, carefully nested patient-level validation after label semantics and provenance are confirmed. Logistic regression and linear SVM can serve as regularized baselines. Random forest and gradient boosting/XGBoost can be compared cautiously, but 705 samples limit reliable tuning. Feature selection must occur inside each training fold.
+Multi-omics integration: feature families are co-located in one matrix, but labels/assays and patient matching are undocumented. A technical joint-matrix experiment is possible after provenance and layer semantics are established; current evidence is insufficient for a scientifically verified multimodal claim.
+Deep learning: not justified for this 705-row, high-dimensional tabular dataset without additional structure or substantially larger cohort. QLattice/symbolic models may be explored after target semantics and leakage are resolved, with strong nested validation and simple baselines; small sample size and 1,935 candidate predictors create substantial selection optimism.
+XAI: model equations/feature use can be inspected, but explanations are not stable or biologically interpretable until variables are documented and estimates validated.
+
+Readiness: NOT ready for model development. Resolve source/provenance, row unit, target code mapping and time horizon, feature dictionary/assays, measurement timing, and patient-level IDs. Missingness is numerically low overall but concentrated in receptor-label fields. There are 99 exact duplicate-valued extra columns; investigate source provenance before any later handling. The majority/minority ratio is 6.50:1. Potential target leakage exists because vital.status is itself a predictor column and the timing of other features is unknown.
+
+Source statement: the archive README links to the Kaggle dataset “Multi-Omics Breast Cancer Prediction QLattice” and describes TCGA origin only as “likely derived from TCGA or similar.” The archive does not prove the original cohort or TCGA provenance. The Kaggle page did not provide readable metadata during this audit. No provenance is inferred beyond that.

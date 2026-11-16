@@ -1,0 +1,7 @@
+model,brier_score,test_rows,calibration_bins,calibration_method
+cnv__logistic_regression,0.20194991962853082,141,6,none; evaluation only
+integrated__random_forest,0.12216115967330032,141,6,none; evaluation only
+mutation__logistic_regression,0.22033250141255573,141,6,none; evaluation only
+protein__random_forest,0.14276548092077196,141,6,none; evaluation only
+rna__random_forest,0.12034378963323324,141,6,none; evaluation only
+dummy_prior,0.11659687641466726,141,1,none; evaluation only

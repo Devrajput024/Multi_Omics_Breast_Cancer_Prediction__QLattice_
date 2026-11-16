@@ -1,0 +1,9 @@
+scope,selection_method,unique_source_features_across_folds,mean_encoded_features_selected_per_fold
+Integrated four-omics,anova,71,50.0
+Integrated four-omics,l1,133,50.0
+Integrated four-omics,mutual_information,187,50.0
+Integrated four-omics,tree_importance,179,50.0
+RNA,anova,70,50.0
+RNA,l1,126,50.0
+RNA,mutual_information,124,50.0
+RNA,tree_importance,138,50.0

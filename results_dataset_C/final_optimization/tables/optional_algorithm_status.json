@@ -1,0 +1,8 @@
+{
+  "xgboost": "not installed; skipped without installation",
+  "lightgbm": "not installed; skipped without installation",
+  "balanced_random_forest": "imbalanced-learn unavailable; skipped",
+  "SMOTE": "imbalanced-learn unavailable; no synthetic resampling performed",
+  "SHAP": "not installed; skipped",
+  "hist_gradient_boosting": "available in scikit-learn; nested CV completed"
+}

@@ -1,0 +1,12 @@
+{
+  "qlattice": {
+    "installed_feyn": false,
+    "status": "unavailable",
+    "exact_error": "ModuleNotFoundError: No module named 'feyn'"
+  },
+  "shap": {
+    "installed": false,
+    "status": "unavailable",
+    "exact_error": "ModuleNotFoundError: No module named 'shap'"
+  }
+}

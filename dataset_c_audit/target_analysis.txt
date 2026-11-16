@@ -1,0 +1,40 @@
+TARGET VARIABLE ANALYSIS (computed from Dataset C files only)
+
+Documentation finding: README describes potential subtype/prognosis objectives generically but does not define actual labels. Notebook code explicitly sets output_name="vital.status" with kind="classification". Both saved .model artifacts also encode output name vital.status. No codebook defines what 0 or 1 means, time point, censoring, or event mapping. Do not translate codes to alive/dead or survival without source documentation.
+
+data.csv (705 rows):
+  vital.status: missing=0; observed classes/categories:
+    0: 611 (86.6667%)
+    1: 94 (13.3333%)
+    majority/minority ratio=6.5000:1; classification imbalance is present. Classification is notebook-intended, but target semantics remain unverified. Regression is unsupported by this binary-coded variable as supplied.
+
+brca_data_w_subtypes.csv (705 rows):
+  vital.status: missing=0; observed classes/categories:
+    0: 611 (86.6667%)
+    1: 94 (13.3333%)
+    majority/minority ratio=6.5000:1; classification imbalance is present. Classification is notebook-intended, but target semantics remain unverified. Regression is unsupported by this binary-coded variable as supplied.
+  PR.Status: missing=122; observed classes/categories:
+    <MISSING>: 122 (17.3050%)
+    Indeterminate: 4 (0.5674%)
+    Negative: 193 (27.3759%)
+    Not Performed: 28 (3.9716%)
+    Performed but Not Available: 5 (0.7092%)
+    Positive: 353 (50.0709%)
+  ER.Status: missing=122; observed classes/categories:
+    <MISSING>: 122 (17.3050%)
+    Indeterminate: 2 (0.2837%)
+    Negative: 135 (19.1489%)
+    Not Performed: 27 (3.8298%)
+    Performed but Not Available: 5 (0.7092%)
+    Positive: 414 (58.7234%)
+  HER2.Final.Status: missing=145; observed classes/categories:
+    <MISSING>: 145 (20.5674%)
+    Equivocal: 9 (1.2766%)
+    Negative: 457 (64.8227%)
+    Not Available: 8 (1.1348%)
+    Positive: 86 (12.1986%)
+  histological.type: missing=0; observed classes/categories:
+    infiltrating ductal carcinoma: 574 (81.4184%)
+    infiltrating lobular carcinoma: 131 (18.5816%)
+
+Potential leakage: vital.status is present as an input column in both files; it must be removed from predictors when it is the target. The subtype-enriched file adds receptor-status and histology labels; if one of those is selected as outcome, related clinical markers and post-outcome measurements may leak information depending on timing. The archive provides no measurement dates or prediction-time definition. Feature/target chronology therefore cannot be cleared.

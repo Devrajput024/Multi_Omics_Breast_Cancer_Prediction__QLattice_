@@ -1,0 +1,12 @@
+FEATURE CATEGORY AND MODALITY INVESTIGATION
+
+All feature family labels below are name-based observations, not confirmed biological modality assignments. The archive has no feature dictionary, assay specification, or external sample manifest. The README gives broad examples of expression, mutation/CNV, and clinical data, but does not map these prefixes or provide layer definitions.
+
+rs_ family: 604 columns; examples: rs_CLEC3A, rs_CPB1, rs_SCGB2A2, rs_SCGB1D2, rs_TFF1, rs_MUCL1, rs_GSTM1, rs_PIP. Numeric values in both tables. Biological meaning not verified from documentation.
+mu_ family: 249 columns; examples: mu_ANK3, mu_GATA3, mu_HECTD4, mu_LRBA, mu_LRP2, mu_SYNE1, mu_CDH1, mu_MGA. Numeric values in both tables. Biological meaning not verified from documentation.
+cn_ family: 860 columns; examples: cn_ISG15, cn_PLCH2, cn_SAMD11, cn_TNFRSF18, cn_BAI2, cn_TEKT2, cn_DNALI1, cn_RSPO1. Numeric values in both tables. Biological meaning not verified from documentation.
+pp_ family: 223 columns; examples: pp_X14.3.3.beta, pp_X14.3.3.epsilon, pp_X14.3.3.zeta, pp_X4E.BP1, pp_X4E.BP1.pS65, pp_X4E.BP1.pT37.T46, pp_X4E.BP1.pT70, pp_X53BP1. Numeric values in both tables. Biological meaning not verified from documentation.
+
+Cautious interpretation: `mu_` names and saved model feature names are consistent with mutation-labelled variables; `cn_` names are consistent with copy-number-labelled variables; `pp_` names look protein/phosphoprotein-like; `rs_` cannot be safely called SNP or transcriptomic data from its prefix alone. No standalone demographic columns were found. `PR.Status`, `ER.Status`, `HER2.Final.Status`, `histological.type`, and `vital.status` are clinical/phenotype-like labels by name, but their codebooks are absent.
+
+Files store all four numeric feature families in one wide matrix. No separate omics files exist in the archive. All 1,936 non-target columns in data.csv and the corresponding shared columns in the enriched table are numeric; the four extra clinical fields are categorical.

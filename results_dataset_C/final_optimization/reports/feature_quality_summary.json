@@ -1,0 +1,20 @@
+{
+  "features": 1936,
+  "missing_cells": 0,
+  "duplicate_rows": 0,
+  "exact_duplicate_vector_groups": 62,
+  "redundant_extra_columns": 99,
+  "constant_features": 0,
+  "near_constant_95pct_features": 230,
+  "pearson_pairs_abs_ge_0_95": 1116,
+  "correlation_cutoff": 0.95,
+  "iqr_outlier_counts_continuous_features_only": 12453,
+  "mutation_sparsity": {
+    "mutation_feature_count": 249,
+    "fraction_zero_all_mutation_cells": 0.9688228089663619,
+    "fraction_nonzero_all_mutation_cells": 0.0311771910336381,
+    "mean_nonzero_features_per_sample": 7.7631205673758865,
+    "median_nonzero_features_per_sample": 5.0,
+    "nonbinary_mutation_features": {}
+  }
+}

@@ -1,0 +1,6 @@
+scope,selected_model,display_name,global_best,training_composite_rank
+CNV,logistic_regression,Logistic Regression,False,4.8
+RNA,random_forest,Random Forest,True,1.0
+Mutation,logistic_regression,Logistic Regression,False,3.2
+Protein,random_forest,Random Forest,False,4.0
+Integrated four-omics,random_forest,Random Forest,False,2.0

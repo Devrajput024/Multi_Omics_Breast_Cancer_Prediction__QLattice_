@@ -1,0 +1,5 @@
+scope,model,probability_type,brier_score_test,log_loss_test,test_samples,calibration_training
+rna,random_forest,uncalibrated,0.12034378963323324,0.40967283944986377,141,uncalibrated training-split fitted model
+rna,random_forest,sigmoid_cv_calibrated,0.10089335804261736,0.35659726673011244,141,training split only; sigmoid calibration with 5-fold CV
+integrated,extra_trees,uncalibrated,0.11334548223225711,0.40054312773367395,141,uncalibrated training-split fitted model
+integrated,extra_trees,sigmoid_cv_calibrated,0.10857095847657386,0.3792306006092425,141,training split only; sigmoid calibration with 5-fold CV

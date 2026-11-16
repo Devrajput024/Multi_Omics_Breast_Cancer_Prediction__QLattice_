@@ -1,0 +1,34 @@
+Advanced validation start; sklearn=1.9.1, seed=20261110, repeats=5, folds=5
+FATAL NameError: name 'X' is not defined
+Traceback (most recent call last):
+  File "C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\advanced_validation\run_advanced_validation.py", line 320, in <module>
+    try:main()
+        ^^^^^^
+  File "C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\advanced_validation\run_advanced_validation.py", line 162, in main
+    pipe=runner.build_pipeline(scope,model_name);pipe.fit(Xtr.iloc[tr],ytr.iloc[tr]);prob=pipe.predict_proba(Xtr.iloc[va])[:,1];pred=(prob>=.5).astype(int)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\advanced_validation\run_advanced_validation.py", line 63, in build_pipeline
+    cols=[c for c in X.columns if any(c.startswith(PREFIX[g]) for g in groups)]
+                     ^
+NameError: name 'X' is not defined
+
+Advanced validation start; sklearn=1.9.1, seed=20261110, repeats=5, folds=5
+Repeated-CV experiments complete
+FATAL KeyError: 'rna__random_forest_test_predictions.csv'
+Traceback (most recent call last):
+  File "C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\advanced_validation\run_advanced_validation.py", line 321, in <module>
+    try:main()
+        ^^^^^^
+  File "C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\advanced_validation\run_advanced_validation.py", line 208, in main
+    predfile=all_pred[f'{scope}__{SCOPE_MODEL[scope]}_test_predictions.csv']
+             ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'rna__random_forest_test_predictions.csv'
+
+Advanced validation start; sklearn=1.9.1, seed=20261110, repeats=5, folds=5
+Repeated CV finished repeat 1/5
+Repeated CV finished repeat 2/5
+Repeated CV finished repeat 3/5
+Repeated CV finished repeat 4/5
+Repeated CV finished repeat 5/5
+Repeated-CV experiments complete
+Advanced validation completed; outputs verified and report saved.

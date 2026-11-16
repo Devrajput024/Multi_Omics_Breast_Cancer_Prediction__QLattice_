@@ -1,0 +1,109 @@
+Python=3.11.9 platform=Windows-10-10.0.26300-SP0 sklearn=1.9.1 numpy=2.4.6 pandas=3.1.1
+Random seed=20261110; test_size=0.2; CV=5-fold StratifiedKFold; trees=100; jobs=1
+Samples=705; train=564 test=141; train class={0: np.int64(489), 1: np.int64(75)}; test class={0: np.int64(122), 1: np.int64(19)}
+Modality counts={'cnv': 860, 'rna': 604, 'mutation': 249, 'protein': 223}; unexpected predictors=[]
+Split is row-based: no patient IDs/barcodes exist, so patient-level independence cannot be verified.
+BASELINE start cnv__logistic_regression
+BASELINE done cnv__logistic_regression; CV ROC-AUC=0.5098±0.0712; test ROC-AUC=0.5345; PR-AUC=0.1503
+BASELINE start cnv__random_forest
+BASELINE done cnv__random_forest; CV ROC-AUC=0.5311±0.0344; test ROC-AUC=0.4482; PR-AUC=0.1508
+BASELINE start cnv__extra_trees
+BASELINE done cnv__extra_trees; CV ROC-AUC=0.5231±0.0610; test ROC-AUC=0.4027; PR-AUC=0.1113
+BASELINE start rna__logistic_regression
+BASELINE done rna__logistic_regression; CV ROC-AUC=0.6476±0.0551; test ROC-AUC=0.6260; PR-AUC=0.3097
+BASELINE start rna__random_forest
+BASELINE done rna__random_forest; CV ROC-AUC=0.6902±0.0349; test ROC-AUC=0.5794; PR-AUC=0.3484
+BASELINE start rna__extra_trees
+BASELINE done rna__extra_trees; CV ROC-AUC=0.6834±0.0664; test ROC-AUC=0.5459; PR-AUC=0.3580
+BASELINE start mutation__logistic_regression
+BASELINE done mutation__logistic_regression; CV ROC-AUC=0.5965±0.0950; test ROC-AUC=0.3904; PR-AUC=0.1222
+BASELINE start mutation__random_forest
+BASELINE done mutation__random_forest; CV ROC-AUC=0.5905±0.0654; test ROC-AUC=0.4659; PR-AUC=0.1495
+BASELINE start mutation__extra_trees
+BASELINE done mutation__extra_trees; CV ROC-AUC=0.5878±0.0664; test ROC-AUC=0.4594; PR-AUC=0.1252
+BASELINE start protein__logistic_regression
+BASELINE done protein__logistic_regression; CV ROC-AUC=0.5655±0.0487; test ROC-AUC=0.4944; PR-AUC=0.1955
+BASELINE start protein__random_forest
+BASELINE done protein__random_forest; CV ROC-AUC=0.6048±0.0702; test ROC-AUC=0.4707; PR-AUC=0.1684
+BASELINE start protein__extra_trees
+BASELINE done protein__extra_trees; CV ROC-AUC=0.5644±0.0675; test ROC-AUC=0.4383; PR-AUC=0.1735
+BASELINE start integrated__logistic_regression
+BASELINE done integrated__logistic_regression; CV ROC-AUC=0.6507±0.0599; test ROC-AUC=0.6040; PR-AUC=0.3378
+BASELINE start integrated__random_forest
+BASELINE done integrated__random_forest; CV ROC-AUC=0.6653±0.0816; test ROC-AUC=0.6053; PR-AUC=0.3561
+BASELINE start integrated__extra_trees
+BASELINE done integrated__extra_trees; CV ROC-AUC=0.6844±0.0884; test ROC-AUC=0.5382; PR-AUC=0.3243
+CV-selected feature selection/explanation baselines: individual=rna/random_forest; integrated=extra_trees
+FATAL KeyError: "None of [Index([371, 216, 217, 250, 172, 304, 147, 532,  77, 638,\n       ...\n       483, 518, 571,  47, 493, 167, 635, 680,  31, 408],\n      dtype='int64', length=564)] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\run_experiments.py", line 487, in <module>
+    main()
+  File "C:\Users\asus\OneDrive\Desktop\Breast part 2\results_dataset_C\run_experiments.py", line 307, in main
+    cvres=cross_validate(pipe,X[train_idx],y_train,cv=cv,scoring=SCORING,n_jobs=1,error_score="raise")
+                              ~^^^^^^^^^^^
+  File "C:\Users\asus\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\frame.py", line 4336, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asus\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\indexes\base.py", line 6557, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "C:\Users\asus\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\indexes\base.py", line 6606, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index([371, 216, 217, 250, 172, 304, 147, 532,  77, 638,\n       ...\n       483, 518, 571,  47, 493, 167, 635, 680,  31, 408],\n      dtype='int64', length=564)] are in the [columns]"
+
+
+--- experiment runner invocation ---
+Python=3.11.9 platform=Windows-10-10.0.26300-SP0 sklearn=1.9.1 numpy=2.4.6 pandas=3.1.1
+Random seed=20261110; test_size=0.2; CV=5-fold StratifiedKFold; trees=100; jobs=1
+Samples=705; train=564 test=141; train class={0: np.int64(489), 1: np.int64(75)}; test class={0: np.int64(122), 1: np.int64(19)}
+Modality counts={'cnv': 860, 'rna': 604, 'mutation': 249, 'protein': 223}; unexpected predictors=[]
+Split is row-based: no patient IDs/barcodes exist, so patient-level independence cannot be verified.
+BASELINE start cnv__logistic_regression
+BASELINE done cnv__logistic_regression; CV ROC-AUC=0.5098±0.0712; test ROC-AUC=0.5345; PR-AUC=0.1503
+BASELINE start cnv__random_forest
+BASELINE done cnv__random_forest; CV ROC-AUC=0.5311±0.0344; test ROC-AUC=0.4482; PR-AUC=0.1508
+BASELINE start cnv__extra_trees
+BASELINE done cnv__extra_trees; CV ROC-AUC=0.5231±0.0610; test ROC-AUC=0.4027; PR-AUC=0.1113
+BASELINE start rna__logistic_regression
+BASELINE done rna__logistic_regression; CV ROC-AUC=0.6476±0.0551; test ROC-AUC=0.6260; PR-AUC=0.3097
+BASELINE start rna__random_forest
+BASELINE done rna__random_forest; CV ROC-AUC=0.6902±0.0349; test ROC-AUC=0.5794; PR-AUC=0.3484
+BASELINE start rna__extra_trees
+BASELINE done rna__extra_trees; CV ROC-AUC=0.6834±0.0664; test ROC-AUC=0.5459; PR-AUC=0.3580
+BASELINE start mutation__logistic_regression
+BASELINE done mutation__logistic_regression; CV ROC-AUC=0.5965±0.0950; test ROC-AUC=0.3904; PR-AUC=0.1222
+BASELINE start mutation__random_forest
+BASELINE done mutation__random_forest; CV ROC-AUC=0.5905±0.0654; test ROC-AUC=0.4659; PR-AUC=0.1495
+BASELINE start mutation__extra_trees
+BASELINE done mutation__extra_trees; CV ROC-AUC=0.5878±0.0664; test ROC-AUC=0.4594; PR-AUC=0.1252
+BASELINE start protein__logistic_regression
+BASELINE done protein__logistic_regression; CV ROC-AUC=0.5655±0.0487; test ROC-AUC=0.4944; PR-AUC=0.1955
+BASELINE start protein__random_forest
+BASELINE done protein__random_forest; CV ROC-AUC=0.6048±0.0702; test ROC-AUC=0.4707; PR-AUC=0.1684
+BASELINE start protein__extra_trees
+BASELINE done protein__extra_trees; CV ROC-AUC=0.5644±0.0675; test ROC-AUC=0.4383; PR-AUC=0.1735
+BASELINE start integrated__logistic_regression
+BASELINE done integrated__logistic_regression; CV ROC-AUC=0.6507±0.0599; test ROC-AUC=0.6040; PR-AUC=0.3378
+BASELINE start integrated__random_forest
+BASELINE done integrated__random_forest; CV ROC-AUC=0.6653±0.0816; test ROC-AUC=0.6053; PR-AUC=0.3561
+BASELINE start integrated__extra_trees
+BASELINE done integrated__extra_trees; CV ROC-AUC=0.6844±0.0884; test ROC-AUC=0.5382; PR-AUC=0.3243
+CV-selected feature selection/explanation baselines: individual=rna/random_forest; integrated=extra_trees
+CNV dedup original: 860 columns; CV ROC-AUC=0.5098; test ROC-AUC=0.5345
+CNV dedup deduplicated: 761 columns; CV ROC-AUC=0.5130; test ROC-AUC=0.5237
+FEATURE_SELECTION start rna__logistic_regression__mutual_information
+FEATURE_SELECTION done rna__logistic_regression__mutual_information; CV ROC-AUC=0.6119; test ROC-AUC=0.6609
+FEATURE_SELECTION start rna__logistic_regression__l1_logistic
+FEATURE_SELECTION done rna__logistic_regression__l1_logistic; CV ROC-AUC=0.6523; test ROC-AUC=0.6303
+FEATURE_SELECTION start rna__logistic_regression__tree_importance
+FEATURE_SELECTION done rna__logistic_regression__tree_importance; CV ROC-AUC=0.6620; test ROC-AUC=0.5513
+FEATURE_SELECTION start integrated__logistic_regression__mutual_information
+FEATURE_SELECTION done integrated__logistic_regression__mutual_information; CV ROC-AUC=0.5945; test ROC-AUC=0.6212
+FEATURE_SELECTION start integrated__logistic_regression__l1_logistic
+FEATURE_SELECTION done integrated__logistic_regression__l1_logistic; CV ROC-AUC=0.6585; test ROC-AUC=0.5600
+FEATURE_SELECTION start integrated__logistic_regression__tree_importance
+FEATURE_SELECTION done integrated__logistic_regression__tree_importance; CV ROC-AUC=0.6303; test ROC-AUC=0.5781
+RUN COMPLETE; final report written.
+
+--- experiment runner invocation ---
+
+Resolved initial error retained for audit: PermissionError: [WinError 5] Access is denied (joblib worker creation during parallel tree fitting); rerun used N_JOBS=1.

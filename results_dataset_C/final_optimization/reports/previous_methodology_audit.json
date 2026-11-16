@@ -1,0 +1,201 @@
+{
+  "findings": {
+    "saved_prediction_files": 23,
+    "saved_model_files": 23,
+    "reconciled_predictions": 23,
+    "target_in_saved_pipeline_preprocessor": false,
+    "phase2_target_dropped_in_source": true,
+    "transforms_and_selection_inside_pipeline": true,
+    "phase3_audit_confirmed": true,
+    "phase2_cv_used_training_only": true,
+    "all_saved_models_use_same_holdout": true,
+    "all_saved_confusion_counts_match": true,
+    "holdout_winner_selection_caveat": "Previous report ranked some models by held-out ROC-AUC descriptively. This is post-hoc and optimistic if interpreted as model selection. No Phase 2 model parameters, selectors, or thresholds were chosen from test scores; this optimization uses training-only inner CV and outer CV, with holdout metrics reported only after selection."
+  },
+  "per_model": [
+    {
+      "model": "cnv_dedup__deduplicated",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "cnv_dedup__original",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "cnv__extra_trees",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "cnv__logistic_regression",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "cnv__random_forest",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "integrated__extra_trees",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "integrated__logistic_regression",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "integrated__logistic_regression__l1_logistic",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "integrated__logistic_regression__mutual_information",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "integrated__logistic_regression__tree_importance",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "integrated__random_forest",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "mutation__extra_trees",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "mutation__logistic_regression",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "mutation__random_forest",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "protein__extra_trees",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "protein__logistic_regression",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "protein__random_forest",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "rna__extra_trees",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "rna__logistic_regression",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "rna__logistic_regression__l1_logistic",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "rna__logistic_regression__mutual_information",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "rna__logistic_regression__tree_importance",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    },
+    {
+      "model": "rna__random_forest",
+      "test_rows": 141,
+      "same_test_index_set": true,
+      "true_labels_match": true,
+      "confusion_order": "[0,1], TN/FP/FN/TP",
+      "confusion_matches_summary": true
+    }
+  ]
+}

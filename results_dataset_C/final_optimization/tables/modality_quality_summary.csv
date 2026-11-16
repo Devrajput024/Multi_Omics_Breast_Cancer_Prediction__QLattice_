@@ -1,0 +1,5 @@
+modality,features,missing_cells,constant_features,near_constant_95pct_features,median_feature_zero_fraction,median_feature_unique_values,iqr_outlier_cells_continuous
+cnv,860,0,0,0,0.526241134751773,5.0,0
+rna,604,0,0,0,0.03404255319148936,682.0,6378
+mutation,249,0,0,230,0.975886524822695,2.0,0
+protein,223,0,0,0,0.0014184397163120568,705.0,6075

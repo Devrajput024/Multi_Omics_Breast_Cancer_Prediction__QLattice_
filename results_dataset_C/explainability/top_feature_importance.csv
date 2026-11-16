@@ -1,0 +1,80 @@
+model_role,baseline_model,rank,feature,modality,importance,importance_method,importance_std
+best_individual,rna__random_forest,1,rs_SCUBE2,rna,0.014171834855771741,tree impurity importance,
+best_individual,rna__random_forest,2,rs_CHRDL1,rna,0.012513949040318273,tree impurity importance,
+best_individual,rna__random_forest,3,rs_ALOX15,rna,0.011161161596362067,tree impurity importance,
+best_individual,rna__random_forest,4,rs_PLIN1,rna,0.009988581242415903,tree impurity importance,
+best_individual,rna__random_forest,5,rs_RBP4,rna,0.009315653980017246,tree impurity importance,
+best_individual,rna__random_forest,6,rs_ACVR1C,rna,0.009015280696199226,tree impurity importance,
+best_individual,rna__random_forest,7,rs_LOC283392,rna,0.008970280286889567,tree impurity importance,
+best_individual,rna__random_forest,8,rs_ADH1B,rna,0.008829328337767273,tree impurity importance,
+best_individual,rna__random_forest,9,rs_APOB,rna,0.0081398202608965,tree impurity importance,
+best_individual,rna__random_forest,10,rs_ANO3,rna,0.006685488166061976,tree impurity importance,
+best_individual,rna__random_forest,11,rs_ABCA8,rna,0.006523479717155524,tree impurity importance,
+best_individual,rna__random_forest,12,rs_COL11A1,rna,0.0063333579019471745,tree impurity importance,
+best_individual,rna__random_forest,13,rs_FOSB,rna,0.006252150679840457,tree impurity importance,
+best_individual,rna__random_forest,14,rs_PPAPDC1A,rna,0.005975998907023934,tree impurity importance,
+best_individual,rna__random_forest,15,rs_GLYAT,rna,0.00582478566613496,tree impurity importance,
+best_individual,rna__random_forest,16,rs_MMP10,rna,0.005810015136412715,tree impurity importance,
+best_individual,rna__random_forest,17,rs_KRT17,rna,0.005697995996820692,tree impurity importance,
+best_individual,rna__random_forest,18,rs_HEPN1,rna,0.005360053398766162,tree impurity importance,
+best_individual,rna__random_forest,19,rs_SLC7A2,rna,0.00524677862359872,tree impurity importance,
+best_individual,rna__random_forest,20,rs_PAX7,rna,0.0051168387009410095,tree impurity importance,
+best_individual,rna__random_forest,permutation,rs_SLC7A2,rna,0.004572907679033622,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.005306473898769643
+best_individual,rna__random_forest,permutation,rs_LOC283392,rna,0.0017256255392579466,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.002861626221186711
+best_individual,rna__random_forest,permutation,rs_ACVR1C,rna,0.0014236410698877711,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.003368010395907129
+best_individual,rna__random_forest,permutation,rs_ADH1B,rna,0.0006039689387402402,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.0034187424945916855
+best_individual,rna__random_forest,permutation,rs_CHRDL1,rna,0.00017256255392574804,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.0030290750097570433
+best_individual,rna__random_forest,permutation,rs_SCUBE2,rna,-8.628127696295174e-05,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.01247503147329316
+best_individual,rna__random_forest,permutation,rs_PLIN1,rna,-0.00017256255392585906,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.002738666134271559
+best_individual,rna__random_forest,permutation,rs_HEPN1,rna,-0.0006039689387403513,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.0017682399941259153
+best_individual,rna__random_forest,permutation,rs_ABCA8,rna,-0.0012079378774806139,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.004670360173502781
+best_individual,rna__random_forest,permutation,rs_KRT17,rna,-0.0012942191544434544,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.004686272860742082
+best_individual,rna__random_forest,permutation,rs_APOB,rna,-0.0017256255392580134,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.004899834638309126
+best_individual,rna__random_forest,permutation,rs_RBP4,rna,-0.0030198446937015123,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.005811990330158559
+best_individual,rna__random_forest,permutation,rs_PAX7,rna,-0.0030198446937015344,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.005067877534284156
+best_individual,rna__random_forest,permutation,rs_GLYAT,rna,-0.0034512510785160043,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.004356990913874926
+best_individual,rna__random_forest,permutation,rs_PPAPDC1A,rna,-0.0038826574633305188,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.005327475856440251
+best_individual,rna__random_forest,permutation,rs_MMP10,rna,-0.005910267471958597,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.008353591757356536
+best_individual,rna__random_forest,permutation,rs_ALOX15,rna,-0.006212251941328772,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.006791054556045656
+best_individual,rna__random_forest,permutation,rs_FOSB,rna,-0.006298533218291746,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.00409949577850029
+best_individual,rna__random_forest,permutation,rs_COL11A1,rna,-0.008024158757549627,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.0021483864707486995
+best_individual,rna__random_forest,permutation,rs_ANO3,rna,-0.010008628127696362,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.007338031120644474
+best_integrated,integrated__extra_trees,1,rs_ACVR1C,rna,0.0036790735350943882,tree impurity importance,
+best_integrated,integrated__extra_trees,2,rs_ADH1C,rna,0.0036632842100041006,tree impurity importance,
+best_integrated,integrated__extra_trees,3,rs_AQP7P1,rna,0.0035474386725563756,tree impurity importance,
+best_integrated,integrated__extra_trees,4,rs_GPD1,rna,0.0031658550004480335,tree impurity importance,
+best_integrated,integrated__extra_trees,5,rs_MRAP,rna,0.0031042808937968526,tree impurity importance,
+best_integrated,integrated__extra_trees,6,rs_APOB,rna,0.0030691194549274763,tree impurity importance,
+best_integrated,integrated__extra_trees,7,rs_C6,rna,0.002896221806385595,tree impurity importance,
+best_integrated,integrated__extra_trees,8,rs_FIGF,rna,0.0027554910631531187,tree impurity importance,
+best_integrated,integrated__extra_trees,9,rs_SMYD1,rna,0.0027215436179220953,tree impurity importance,
+best_integrated,integrated__extra_trees,10,rs_GLYAT,rna,0.0026467050775322272,tree impurity importance,
+best_integrated,integrated__extra_trees,11,rs_ALOX15,rna,0.002631037000377459,tree impurity importance,
+best_integrated,integrated__extra_trees,12,rs_HEPACAM,rna,0.0026182980643885845,tree impurity importance,
+best_integrated,integrated__extra_trees,13,rs_FXYD1,rna,0.0025049315787638933,tree impurity importance,
+best_integrated,integrated__extra_trees,14,rs_IL33,rna,0.0024281329853051282,tree impurity importance,
+best_integrated,integrated__extra_trees,15,rs_CIDEC,rna,0.0024135767845792325,tree impurity importance,
+best_integrated,integrated__extra_trees,16,rs_C14orf180,rna,0.0023517066534331542,tree impurity importance,
+best_integrated,integrated__extra_trees,17,rs_LOC283392,rna,0.0022777622006595537,tree impurity importance,
+best_integrated,integrated__extra_trees,18,cn_MAG_1,cnv,0.002191047561749967,tree impurity importance,
+best_integrated,integrated__extra_trees,19,pp_PI3K.p85,protein,0.002168591477607636,tree impurity importance,
+best_integrated,integrated__extra_trees,20,rs_SLC19A3,rna,0.0021677970813088056,tree impurity importance,
+best_integrated,integrated__extra_trees,permutation,rs_ALOX15,rna,0.008628127696289822,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.007995579375690525
+best_integrated,integrated__extra_trees,permutation,rs_GPD1,rna,0.0034081104400343954,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.002887523818926927
+best_integrated,integrated__extra_trees,permutation,rs_HEPACAM,rna,0.002674719585849772,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.003678356125503438
+best_integrated,integrated__extra_trees,permutation,rs_ACVR1C,rna,0.0026747195858497276,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.004264163517912518
+best_integrated,integrated__extra_trees,permutation,rs_SMYD1,rna,0.0025452976704053885,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.004392619552604876
+best_integrated,integrated__extra_trees,permutation,rs_GLYAT,rna,0.0019844693701465575,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.002374695244956482
+best_integrated,integrated__extra_trees,permutation,rs_IL33,rna,0.0018119068162207653,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.0033576334264056396
+best_integrated,integrated__extra_trees,permutation,rs_AQP7P1,rna,0.0012079378774804805,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.006134471371131484
+best_integrated,integrated__extra_trees,permutation,rs_LOC283392,rna,0.0012079378774804805,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.0008298267498563494
+best_integrated,integrated__extra_trees,permutation,rs_MRAP,rna,0.0007765314926659883,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.0027522239702737848
+best_integrated,integrated__extra_trees,permutation,pp_PI3K.p85,protein,0.0005176876617773108,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.006019626482331936
+best_integrated,integrated__extra_trees,permutation,rs_SLC19A3,rna,0.0005176876617772663,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.0010849677601345545
+best_integrated,integrated__extra_trees,permutation,rs_CIDEC,rna,0.00038826574633292753,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.003233390134694272
+best_integrated,integrated__extra_trees,permutation,rs_APOB,rna,0.00030198446937008684,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.004805390774811616
+best_integrated,integrated__extra_trees,permutation,rs_C14orf180,rna,0.0002157031924071129,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.0027623486787889994
+best_integrated,integrated__extra_trees,permutation,rs_FXYD1,rna,-0.0003882657463331274,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.004591996234938822
+best_integrated,integrated__extra_trees,permutation,rs_FIGF,rna,-0.00129421915444361,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.007983932494961923
+best_integrated,integrated__extra_trees,permutation,rs_C6,rna,-0.0013373597929250635,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.0025540569655937203
+best_integrated,integrated__extra_trees,permutation,rs_ADH1C,rna,-0.004270923209663579,test-set permutation ROC-AUC decrease; top-ranked raw variables only,0.0026915402514778508

@@ -1,0 +1,15 @@
+{
+  "selection": "nested stratified CV; 3 outer folds \u00d7 3 inner folds on original training partition",
+  "outer_shuffle": true,
+  "inner_shuffle": true,
+  "seed": 20261110,
+  "priority_metrics": [
+    "roc_auc",
+    "pr_auc",
+    "balanced_accuracy",
+    "macro_f1",
+    "deceased_recall"
+  ],
+  "selection_method": "mean rank over ROC-AUC, average precision, balanced accuracy, macro-F1, deceased recall",
+  "final_test": "original 141-row holdout evaluated only after model selection; not used for selection"
+}

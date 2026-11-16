@@ -1,0 +1,209 @@
+[
+  {
+    "prediction_file": "predictions\\cnv_dedup__deduplicated_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\cnv_dedup__original_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\cnv__extra_trees_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\cnv__logistic_regression_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\cnv__random_forest_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\integrated__extra_trees_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\integrated__logistic_regression_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\integrated__logistic_regression__l1_logistic_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\integrated__logistic_regression__mutual_information_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\integrated__logistic_regression__tree_importance_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\integrated__random_forest_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\mutation__extra_trees_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\mutation__logistic_regression_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\mutation__random_forest_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\protein__extra_trees_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\protein__logistic_regression_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\protein__random_forest_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\rna__extra_trees_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\rna__logistic_regression_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\rna__logistic_regression__l1_logistic_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\rna__logistic_regression__mutual_information_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\rna__logistic_regression__tree_importance_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  },
+  {
+    "prediction_file": "predictions\\rna__random_forest_test_predictions.csv",
+    "rows": 141,
+    "same_test_indices": true,
+    "same_true_labels": true,
+    "confusion_labels_order": "[0,1] (TN,FP,FN,TP)",
+    "metrics_match_summary": true,
+    "max_absolute_metric_difference": 0.0
+  }
+]

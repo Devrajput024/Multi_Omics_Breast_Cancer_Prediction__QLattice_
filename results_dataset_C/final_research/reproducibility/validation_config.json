@@ -1,0 +1,23 @@
+{
+  "split_seed": 20261110,
+  "test_fraction": 0.2,
+  "stratified": true,
+  "row_based": true,
+  "cv_phase2": {
+    "type": "StratifiedKFold",
+    "folds": 5,
+    "shuffle": true,
+    "seed": 20261110
+  },
+  "cv_phase3": {
+    "type": "RepeatedStratifiedKFold",
+    "folds": 5,
+    "repeats": 5,
+    "seed": 20261110
+  },
+  "threshold_selection": "mean repeated OOF training probabilities; maximize Youden J",
+  "bootstrap_replicates": 3000,
+  "permutation_replicates": 5000,
+  "class_weight": "balanced for fitted classifiers",
+  "note": "No patient IDs: patient-level independence not verifiable."
+}

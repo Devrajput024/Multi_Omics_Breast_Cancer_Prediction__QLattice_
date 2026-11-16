@@ -1,0 +1,19 @@
+Dataset C archive: C:\Users\asus\Downloads\archive (8).zip
+Archive size: 8,149,463 bytes
+Extracted to: C:\Users\asus\OneDrive\Desktop\Breast part 2\dataset_c_extracted
+
+Archive entries (6):
+- Interpretable_Multi_Omics_Integration_for_Breast_Cancer_Severity_Prediction_using_QLattice_Symbolic_Regression.ipynb | file | .ipynb | 1,235,091 bytes
+- Multi_Omics_Breast_Cancer_Prediction__QLattice readme.md | file | .md | 3,688 bytes
+- brca_data_w_subtypes.csv | file | .csv | 10,825,617 bytes
+- data.csv | file | .csv | 10,787,813 bytes
+- model1_200its_mc7.model | file | .model | 1,198 bytes
+- model_200its_md2_bic_0.model | file | .model | 1,907 bytes
+
+Archive file summary:
+- CSV: 2 (brca_data_w_subtypes.csv, data.csv)
+- Jupyter notebook: 1
+- Markdown documentation: 1
+- QLattice model artifacts: 2
+- XLSX/TXT/PDF/JSON files: 0
+- Explicit directory entries: 0 (all files at archive root)

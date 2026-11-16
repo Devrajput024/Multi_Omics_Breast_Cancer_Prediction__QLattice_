@@ -1,0 +1,24 @@
+dataset_file,variable,class_or_value,count,percent_of_rows,interpretation_status
+brca_data_w_subtypes.csv,vital.status,0,611,86.666667,observed value; clinical meaning/label coding not documented in files
+brca_data_w_subtypes.csv,vital.status,1,94,13.333333,observed value; clinical meaning/label coding not documented in files
+brca_data_w_subtypes.csv,PR.Status,Indeterminate,4,0.567376,observed category; not a validated molecular subtype label
+brca_data_w_subtypes.csv,PR.Status,Negative,193,27.375887,observed category; not a validated molecular subtype label
+brca_data_w_subtypes.csv,PR.Status,Not Performed,28,3.971631,observed category; not a validated molecular subtype label
+brca_data_w_subtypes.csv,PR.Status,Performed but Not Available,5,0.70922,observed category; not a validated molecular subtype label
+brca_data_w_subtypes.csv,PR.Status,Positive,353,50.070922,observed category; not a validated molecular subtype label
+brca_data_w_subtypes.csv,PR.Status,<MISSING>,122,17.304965,observed category; not a validated molecular subtype label
+brca_data_w_subtypes.csv,ER.Status,Indeterminate,2,0.283688,observed category; not a validated molecular subtype label
+brca_data_w_subtypes.csv,ER.Status,Negative,135,19.148936,observed category; not a validated molecular subtype label
+brca_data_w_subtypes.csv,ER.Status,Not Performed,27,3.829787,observed category; not a validated molecular subtype label
+brca_data_w_subtypes.csv,ER.Status,Performed but Not Available,5,0.70922,observed category; not a validated molecular subtype label
+brca_data_w_subtypes.csv,ER.Status,Positive,414,58.723404,observed category; not a validated molecular subtype label
+brca_data_w_subtypes.csv,ER.Status,<MISSING>,122,17.304965,observed category; not a validated molecular subtype label
+brca_data_w_subtypes.csv,HER2.Final.Status,Equivocal,9,1.276596,observed category; not a validated molecular subtype label
+brca_data_w_subtypes.csv,HER2.Final.Status,Negative,457,64.822695,observed category; not a validated molecular subtype label
+brca_data_w_subtypes.csv,HER2.Final.Status,Not Available,8,1.134752,observed category; not a validated molecular subtype label
+brca_data_w_subtypes.csv,HER2.Final.Status,Positive,86,12.198582,observed category; not a validated molecular subtype label
+brca_data_w_subtypes.csv,HER2.Final.Status,<MISSING>,145,20.567376,observed category; not a validated molecular subtype label
+brca_data_w_subtypes.csv,histological.type,infiltrating ductal carcinoma,574,81.41844,observed histology category
+brca_data_w_subtypes.csv,histological.type,infiltrating lobular carcinoma,131,18.58156,observed histology category
+data.csv,vital.status,0,611,86.666667,observed value; clinical meaning/label coding not documented in files
+data.csv,vital.status,1,94,13.333333,observed value; clinical meaning/label coding not documented in files

@@ -1,0 +1,14 @@
+{
+  "selected_key": "rna__random_forest",
+  "scope": "rna",
+  "model": "random_forest",
+  "selection_source": "training-only nested CV composite rank; never test metrics",
+  "composite_rank": 1.0,
+  "scope_winners": {
+    "cnv": "logistic_regression",
+    "rna": "random_forest",
+    "mutation": "logistic_regression",
+    "protein": "random_forest",
+    "integrated": "random_forest"
+  }
+}

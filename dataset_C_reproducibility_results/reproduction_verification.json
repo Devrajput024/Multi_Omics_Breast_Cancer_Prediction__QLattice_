@@ -1,0 +1,99 @@
+{
+  "comparison_to_existing_final_optimization": [
+    {
+      "scope": "cnv",
+      "test_roc_auc_abs_diff_vs_final_optimization": 0.0,
+      "test_pr_auc_abs_diff": 0.0,
+      "nested_outer_roc_auc_abs_diff": 0.0,
+      "nested_outer_roc_auc_sd_abs_diff": 0.0
+    },
+    {
+      "scope": "rna",
+      "test_roc_auc_abs_diff_vs_final_optimization": 0.0,
+      "test_pr_auc_abs_diff": 0.0,
+      "nested_outer_roc_auc_abs_diff": 0.0,
+      "nested_outer_roc_auc_sd_abs_diff": 0.0
+    },
+    {
+      "scope": "mutation",
+      "test_roc_auc_abs_diff_vs_final_optimization": 0.0,
+      "test_pr_auc_abs_diff": 0.0,
+      "nested_outer_roc_auc_abs_diff": 0.0,
+      "nested_outer_roc_auc_sd_abs_diff": 0.0
+    },
+    {
+      "scope": "protein",
+      "test_roc_auc_abs_diff_vs_final_optimization": 0.0,
+      "test_pr_auc_abs_diff": 0.0,
+      "nested_outer_roc_auc_abs_diff": 0.08793456032719826,
+      "nested_outer_roc_auc_sd_abs_diff": 0.08650802100292362
+    },
+    {
+      "scope": "integrated",
+      "test_roc_auc_abs_diff_vs_final_optimization": 0.0,
+      "test_pr_auc_abs_diff": 0.0,
+      "nested_outer_roc_auc_abs_diff": 0.0,
+      "nested_outer_roc_auc_sd_abs_diff": 0.0
+    }
+  ],
+  "previous_scope_winners_reproduced": [
+    {
+      "scope": "cnv",
+      "model": "logistic_regression",
+      "reproduced": true
+    },
+    {
+      "scope": "rna",
+      "model": "random_forest",
+      "reproduced": true
+    },
+    {
+      "scope": "mutation",
+      "model": "logistic_regression",
+      "reproduced": true
+    },
+    {
+      "scope": "protein",
+      "model": "random_forest",
+      "reproduced": true
+    },
+    {
+      "scope": "integrated",
+      "model": "random_forest",
+      "reproduced": true
+    }
+  ],
+  "outer_fold_reproduction": {
+    "selected_algorithm_mismatches": 1,
+    "roc_auc_max_abs_diff": 0.26380368098159507,
+    "all_outer_folds_match": false
+  },
+  "saved_pipeline_recreates_predictions": [
+    {
+      "scope": "CNV",
+      "probabilities_match": true,
+      "labels_match": true
+    },
+    {
+      "scope": "Integrated four-omics",
+      "probabilities_match": true,
+      "labels_match": true
+    },
+    {
+      "scope": "Mutation",
+      "probabilities_match": true,
+      "labels_match": true
+    },
+    {
+      "scope": "Protein",
+      "probabilities_match": true,
+      "labels_match": true
+    },
+    {
+      "scope": "RNA",
+      "probabilities_match": true,
+      "labels_match": true
+    }
+  ],
+  "source_hash": "da120be71091411cda4185fc45f3c204c4d244a4060d8c7b35f42bbd4c3f69d5"
+}

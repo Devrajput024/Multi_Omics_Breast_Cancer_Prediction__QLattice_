@@ -1,0 +1,13 @@
+{
+  "prediction_files_found": 23,
+  "model_pipelines_found": 23,
+  "target_excluded_from_phase2_input_X": true,
+  "target_in_any_saved_preprocessor_columns": false,
+  "preprocessing_inside_sklearn_pipelines": true,
+  "feature_selection_inside_pipeline": true,
+  "CV_uses_training_split_only": true,
+  "test_split_reused_for_all_predictions": true,
+  "saved_metrics_reconciled": true,
+  "confusion_matrix_order": "sklearn confusion_matrix labels=[0,1], yielding TN, FP, FN, TP",
+  "posthoc_test_ranking_caveat": "Phase 2 report included maxima ranked by held-out test ROC-AUC. This did not change saved pipelines, thresholds, or feature selection, but those posthoc maxima are descriptive and optimistically selected. Advanced model choices are frozen from original training-CV ranks."
+}

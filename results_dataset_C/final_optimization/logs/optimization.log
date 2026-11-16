@@ -1,0 +1,26 @@
+Optimization run; Python=3.11.9, sklearn=1.9.1, seed=20261110; outer=3, inner=3
+NESTED start cnv
+NESTED done cnv
+NESTED start rna
+NESTED done rna
+NESTED start mutation
+NESTED done mutation
+NESTED start protein
+NESTED done protein
+NESTED start integrated
+NESTED done integrated
+SELECTOR rna/mutual_information complete
+SELECTOR rna/anova complete
+SELECTOR rna/l1 complete
+SELECTOR rna/tree_importance complete
+SELECTOR integrated/mutual_information complete
+SELECTOR integrated/anova complete
+SELECTOR integrated/l1 complete
+SELECTOR integrated/tree_importance complete
+FINAL train/evaluate cnv__logistic_regression: CV-inner-ranked; test ROC-AUC=0.5345, PR-AUC=0.1503
+FINAL train/evaluate rna__random_forest: CV-inner-ranked; test ROC-AUC=0.5794, PR-AUC=0.3484
+FINAL train/evaluate mutation__logistic_regression: CV-inner-ranked; test ROC-AUC=0.3904, PR-AUC=0.1222
+FINAL train/evaluate protein__random_forest: CV-inner-ranked; test ROC-AUC=0.4707, PR-AUC=0.1684
+FINAL train/evaluate integrated__random_forest: CV-inner-ranked; test ROC-AUC=0.6053, PR-AUC=0.3561
+Optimization complete; final models/report written.
+Candidate errors recorded=0; model scope winners={'cnv': 'logistic_regression', 'rna': 'random_forest', 'mutation': 'logistic_regression', 'protein': 'random_forest', 'integrated': 'random_forest'}; selected global=rna__random_forest
